@@ -1,4 +1,696 @@
 What is software modeling?
+
+(a) Developing models of software.
+(b) Designing software applications before coding.
+(c) Developing software diagrams.
+(d) Developing software prototypes.
+b
+
+
+What is the Unified Modeling Language
+
+(a) A programming language for describing object-oriented models.
+(b) A diagramming tool for drawing object-oriented models.
+(c) A graphical language for describing object-oriented models.
+d) A standardized graphical language and notation for describing object-oriented models
+d
+
+
+What is a software architecture?
+
+(a) The software inside a building.
+(b) The structure of a client/server system.
+(c) The overall structure of a software system.
+(d) The software classes and their relationships.
+c
+
+
+What is a software design notation?
+
+(a) Notes about the software design.
+(b) A graphical or textual description of the software.
+(c) Documentation of the software.
+(d) A systematic approach for producing a design.
+b
+
+
+What is a software design concept?
+
+(a) A graphical or textual description of the software.
+(b) Documentation of the software.
+(c) A fundamental idea that can be applied to designing a system.
+(d) A systematic approach for producing a design.
+c
+
+
+What is a software design strategy?
+
+(a) A graphical or textual description of the software.
+(b) A fundamental idea that can be applied to designing a system.
+(c) A systematic approach for producing a design.
+(d) An overall plan and direction for developing a design.
+d
+
+
+What are software structuring criteria?
+
+(a) Fundamental ideas that can be applied to designing a system.
+(b) Systematic approaches for producing a design.
+(c) Guidelines used to help in structuring a software system into its components.
+(d) Overall plans for developing a design.
+c
+
+
+What is a software design method?
+
+a) A systematic approach for producing a design.
+(b) Guidelines used to help in structuring a software system into its components.
+(c) An overall plan for developing a design.
+(d) A graphical or textual description of the software.
+a
+
+
+What is a platform-independent model (PIM)?
+
+(a) A software platform before a commitment is made to a specific hardware platform.
+(b) A precise model of the software architecture before a commitment is made to a specific platform.
+(c) A precise model of the software architecture mapped to a specific platform.
+(d) A graphical or textual description of the software.
+b
+
+
+What is a platform-specific model (PSM)?
+
+(a) A specific hardware platform.
+(b) A precise model of the software architecture before a commitment is made to a specific platform.
+(c) A precise model of the software architecture mapped to a specific platform.
+(d) A graphical or textual description of the software.
+c
+
+
+How is an actor depicted on a use case diagram?
+
+(a) An oval
+(b) A stick figure
+(c) A box
+(d) A dashed line
+b
+
+
+How is a use case depicted on a use case diagram?
+
+(a) An oval
+(b) A stick figure
+(c) A box
+(d) A dashed line
+a
+
+
+How is a class depicted on a class diagram?
+
+(a) A box with one compartment
+(b) A box with one or two compartments
+(c) A box with one, two, or three compartments
+(d) An oval
+c
+
+
+How is an association depicted on a class diagram?
+
+(a) A solid line joining two class boxes
+(b) A dashed line joining two class boxes
+(c) A diamond touching the upper class box
+(d) An arrowhead touching the upper class box
+a
+
+
+How is public visibility depicted for a class element on a class diagram?
+
+(a) + sign
+(b) − sign
+(c) # sign
+(d) ∗sign
+a
+
+
+What are the two kinds of UML interaction diagrams?
+
+(a) Class diagram and sequence diagram
+(b) Sequence diagram and communication diagram
+(c) Class diagram and communication diagram
+(d) Statechart and communication diagram
+b
+
+
+What does an interaction diagram depict?
+
+(a) Objects and links
+(b) Classes and relationships
+(c) Objects and messages
+(d) States and events
+c
+
+
+What does a statechart diagram depict?
+
+(a) Objects and links
+(b) Classes and relationships
+(c) Objects and messages
+(d) States and events
+d
+
+
+What is a UML package?
+
+(a) A box
+(b) A grouping of classes
+(c) A grouping of use cases
+(d) A grouping of model elements
+d
+
+
+What does a deployment diagram depict?
+
+(a) The physical configuration of the system in terms of physical classes and physical connections between the classes
+(b) The physical configuration of the system in terms of physical objects and physical connections between the objects
+(c) The physical configuration of the system in terms of physical nodes and physical connections between the nodes
+(d) The physical configuration of the system in terms of physical computers and physical networks between the computers
+c
+
+
+What is a software life cycle?
+
+(a) The life of the software
+(b) A cyclic approach to developing software
+(c) A phased approach to developing software
+(d) The life of software developed in cycles
+c
+
+
+What is the waterfall life cycle model?
+
+(a) Software developed under a waterfall
+(b) A process model in which each phase is completed before the next phase is started
+(c) A process model in which phases are overlapped
+(d) A process model in which phases are cyclic
+b
+
+
+Which of the following is a limitation of the waterfall life cycle model?
+
+(a) Software is developed in phases.
+(b) Each phase is completed before the next phase is started.
+(c) Software development is cyclic.
+(d) Software requirements are not properly tested until a working system is available
+d
+
+
+Which of the following approaches can overcome the limitation in the previous question?
+
+(a) Phased software development
+(b) Throwaway prototyping
+(c) Evolutionary prototyping
+(d) Incremental development
+b
+
+
+What is evolutionary prototyping?
+
+(a) Phased software development
+(b) Throwaway prototyping
+(c) Risk-driven development
+(d) Incremental development
+d
+
+
+What approach does the spiral model emphasize?
+
+(a) Phased software development
+(b) Throwaway prototyping
+(c) Risk-driven development
+(d) Incremental development
+c
+
+
+What is the goal of software validation?
+
+(a) Building the system
+(b) Building the right system
+(c) Building the system right
+(d) Testing the system
+b
+
+
+What is the goal of software verification?
+
+(a) Building the system
+(b) Building the right system
+(c) Building the system right
+(d) Testing the system
+c
+
+
+What is "white box" testing?
+
+(a) Unit testing
+(b) Integration testing
+(c) Testing with knowledge of the system internals
+(d) Testing without knowledge of the software internals
+c
+
+
+What is "black box" testing?
+
+(a) System testing
+(b) Integration testing
+(c) Testing with knowledge of the system internals
+(d) Testing without knowledge of the software internals
+d
+
+
+Which of the following are object-oriented concepts?
+
+(a) Modules and interfaces
+(b) Modules and information hiding
+(c) Classes, information hiding, and inheritance
+(d) Concurrency and information hiding
+c
+
+
+Which of the following is a characteristic of an object?
+
+(a) A function or subroutine
+(b) A module
+(c) Groups data and procedures that operate on the data
+(d) Groups a function and an algorithm
+c
+
+
+What is a class?
+
+(a) An object instance
+(b) The implementation of the object
+(c) A collection of objects with the same characteristics
+(d) A collection of objects with different characteristics
+c
+
+
+What is an operation (also known as method) of a class?
+
+(a) Specification and the implementation of a function performed by a class
+(b) Specification and the implementation of a subroutine provided by a class
+(c) Specification and the implementation of a function or procedure provided by a class
+(d) Specification and the implementation of an interface provided by a class
+c
+
+
+What is the signature of an operation?
+
+(a) The operation's name
+(b) The operation's function or subroutine
+(c) The operation's name, parameters, and return value
+(d) The object's interface
+c
+
+
+What is the interface of a class?
+
+(a) The signature of a class
+(b) The specification of operations provided by the class
+(c) The internals of the class
+(d) The implementation of the class
+b
+
+
+What is an attribute?
+
+(a) A description of a class
+(b) An internal property of a class
+(c) A data item held by a class
+(d) A parameter of a class
+c
+
+
+What is information hiding in software design?
+
+(a) Hiding information so that it cannot be found
+(b) Hiding a design decision that is considered likely to change
+(c) Hiding information to make it secure
+(d) Encapsulating data in a class
+b
+
+
+What is data abstraction?
+
+(a) Another name for information hiding
+(b) Encapsulating data so that its structure is hidden
+(c) Storing data in a database
+(d) Storing data in a data structure
+b
+
+
+What is inheritance?
+
+(a) A mechanism for inheriting characteristics from a parent
+(b) A mechanism for sharing and reusing code between classes
+(c) A mechanism for sharing data between classes
+(d) A mechanism for hiding information between classes
+b
+
+
+What is carried out during requirements modeling?
+
+(a) Functional requirements of the system are described in terms of functions, inputs, and outputs.
+(b) Functional requirements of the system are described in terms of actors and use cases.
+(c) Functional requirements of the system are described textually.
+(d) Functional requirements of the system are determined by interviewing users
+b
+
+
+What is carried out during analysis modeling?
+
+(a) Developing use case models
+(b) Developing data flow and entityrelationship diagrams
+(c) Developing static and dynamic models
+(d) Developing software architectures
+c
+
+
+What is carried out during design modeling?
+
+(a) Developing use case models
+(b) Developing data flow and entityrelationship diagrams
+(c) Developing static and dynamic models
+(d) Developing software architectures
+d
+
+
+What is carried out during incremental software construction?
+
+(a) Detailed design and coding of the classes in a subset of the system
+(b) Detailed design, coding, and unit testing of the classes in a subset of the system
+(c) Coding and unit testing of the classes in a subset of the system
+(d) Unit and integration testing of the classes in a subset of the system
+b
+
+
+What is carried out during incremental software integration?
+
+(a) Implementation of the classes in each software increment
+(b) Unit testing of the classes in each software increment
+(c) Integration testing of the classes in each software increment
+(d) System testing of the classes in each software increment
+c
+
+
+What is carried out during system testing?
+
+(a) White box testing
+(b) Black box testing
+(c) Unit testing
+(d) Integration testing
+b
+
+
+What is a use case?
+
+(a) A case study involving users
+(b) A sequence of interactions between the user and the system
+(c) A sequence of interactions between the user and the objects in the system
+(d) A sequence of user inputs to the system
+c
+
+
+What is an actor in a use case?
+
+(a) An object inside the system
+(b) A person who performs on stage
+(c) An external entity that interacts with the system
+(d) The customer to whom the system will be delivered
+c
+
+
+What is a primary actor?
+
+(a) The actor who goes on stage first
+(b) The actor that starts the use case
+(c) An actor that participates in the use case
+(d) An object inside the system
+b
+
+
+What is a secondary actor?
+
+(a) The actor who goes on stage second
+(b) The actor that starts the use case
+(c) An actor that participates in the use case
+(d) An object inside the system
+c
+
+
+What is an alternative sequence in a use case?
+
+(a) A sequence that describes an error case
+(b) A sequence that is different from the main sequence
+(c) A sequence that describes interactions with a secondary actor
+(d) A sequence that describes interactions with a primary actor
+b
+
+
+What can an inclusion use case be used for?
+
+(a) To describe an inclusive use case
+(b) To describe a lengthy interaction with an actor
+(c) To describe functionality that is common to more than one use case
+(d) To describe a use case that includes other use cases
+c
+
+
+What can an extension use case be used for?
+
+(a) To describe a lengthy interaction with an actor
+(b) To describe functionality that is common to more than one use case
+(c) To describe the functionality of a use case that is extended by another use case(s)
+(d) To describe a conditional part of a different use case that is only executed under certain circumstances
+d
+
+
+What can an activity diagram be used for in use case modeling?
+
+(a) To depict the sequence of activities executed by all the use cases in the system
+(b) To depict the sequence of external activities that the use case interacts with
+(c) To depict the sequence of active objects in a use case
+(d) To depict the activities in the main and alternative sequences of a use case
+d
+
+
+How can a nonfunctional requirement be described in a use case model?
+
+(a) In a separate section of the use case description
+(b) As a use case precondition
+(c) As a use case postcondition
+(d) In a separate document
+a
+
+
+What is a use case package?
+
+(a) A package describing the actors in the system
+(b) A package describing the use cases in the system
+(c) A group of related use cases
+(d) The package of objects that participate in the use case
+c
+
+
+What is a class?
+
+(a) A course
+(b) An object instance
+(c) A client or server in the system
+(d) A collection of objects with the same characteristics
+d
+
+
+What is an attribute?
+
+(a) A relationship between two classes
+(b) A parameter of an operation or method
+(c) A data value held by an object in a class
+(d) The return value from an operation
+c
+
+
+What is an association?
+
+(a) A relationship between two classes
+(b) A relationship between two objects
+(c) A link between two classes
+(d) A link between two objects
+a
+
+
+What is meant by the multiplicity of an association?
+
+(a) The number of associations in a class
+(b) The number of associations between two classes
+(c) How many instances of one class relate to how many instances of another class
+(d) How many instances of one class relate to a single instance of another class.
+d
+
+
+What is an association class?
+
+(a) A class with multiple associations
+(b) A class with one association
+(c) A class that models an association between two or more classes
+(d) A class that models an association between two or more objects
+c
+
+
+What is a generalization/specialization hierarchy?
+
+(a) A whole/part relationship
+(b) An inheritance relationship
+(c) An association between a generalized class and a specialized class
+(d) A layered hierarchy
+b
+
+
+What is a composition hierarchy?
+
+(a) A weak form of a generalization/ specialization hierarchy
+(b) A strong form of a generalization/ specialization hierarchy
+(c) A weak form of a whole/part relationship
+(d) A strong form of a whole/part relationship
+d
+
+
+What is an aggregation hierarchy?
+
+(a) A weak form of a generalization/ specialization hierarchy
+(b) A strong form of a generalization/specialization hierarchy
+(c) A weak form of a whole/part relationship
+(d) A strong form of a whole/part relationship
+c
+
+
+What does the system context class diagram define?
+
+(a) The entity classes in the system
+(b) How the system interfaces to other systems
+(c) The boundary between the system and the external environment
+(d) The context classes in the system
+c
+
+
+What is an entity class?
+
+(a) A class on an entity/relationship diagram
+(b) A class that stores data
+(c) A class that interfaces to an external entity
+(d) An external class
+b
+
+
+What is a boundary object?
+
+(a) An external object
+(b) An object that stores data
+(c) An object that communicates with an external object
+(d) An object that controls other objects
+c
+
+
+What is a control object?
+
+(a) An object that depends on other objects
+(b) An object that communicates with an external object
+(c) An object that controls other objects
+(d) An object that is controlled by other objects
+c
+
+
+What is a state-dependent control object?
+
+(a) An object that depends on a state machine
+(b) An object that communicates with a state machine
+(c) An object that controls a state machine
+(d) An object that executes a state machine
+d
+
+
+What is a coordinator object?
+
+(a) A manager object
+(b) An object that makes decisions based on a state machine
+(c) A decision-making object
+(d) An object that decides which entity object to interact with
+c
+
+
+How would you determine a boundary class from the context diagram?
+
+(a) By looking at it
+(b) By selecting the external classes on the context diagram
+(c) By determining the software classes that communicate with the external classes
+(d) By drawing the boundary between the hardware and software classes
+c
+
+
+What is a timer object?
+
+(a) An external clock
+(b) An internal clock
+(c) An object that is awakened by an external timer
+(d) An object that interacts with a clock
+c
+
+
+What do class structuring criteria help with?
+
+(a) Structuring an application into classes
+(b) Defining the attributes of a class
+(c) Defining the associations of a class
+(d) Defining the operations of a class
+a
+
+
+What is the classification process for application classes analogous to?
+
+(a) Categorizing books in a library
+(b) Deciding how many copies of a book are needed
+(c) Finding the classrooms in a school
+(d) Identifying what labs the school has
+a
+
+
+What is the purpose of a stereotype in class structuring?
+
+(a) To label a class according to its class structuring criterion
+(b) To identify the objects that belong to the same class
+(c) To distinguish between external objects and software objects
+(d) To identify the association between two classes
+a
+
+
+What is a business logic object?
+
+(a) An object used in business applications
+(b) An object that defines business-specific application logic
+(c) The internal logic of an object
+(d) A business object that determines whether a client request is logical
+b
+
+
+What is a condition used for in a state machine?
+
+(a) A conditional action
+(b) A conditional state
+(c) A conditional state transition
+(d) A conditional event
+c
+---------------------------------------------------------------------------
+What is software modeling?
 (a) Developing models of software.
 (b) Designing software applications before coding.
 (c) Developing software diagrams.

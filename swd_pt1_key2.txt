@@ -1,0 +1,240 @@
+What is a coordinator object?
+A. A manager object
+B. An object that makes decisions based on a state machine
+C. A decision-making object
+D. An object that decides which entity object to interact with
+C
+
+
+How is a use case depicted on a use case diagram?
+A. An oval
+B. A stick figure
+C. A box
+D. A dashed line
+A
+
+
+
+AD
+What is a software design method?
+A. A systematic approach for producing a design
+B. Guidelines used to help in structuring a software system into its components
+C. An overall plan for developing a design
+D. A graphical or textual description of the software
+A
+
+
+What do class structuring criteria help with?
+A. Structuring an application into classes
+B. Defining the attributes of a class
+C. Defining the associations of a class
+D. Defining the operations of a class
+A
+
+
+What is a use case?
+A. A case study involving users
+B. A sequence of interactions between the user and the system
+C. A sequence of interactions between the user and the objects in the System
+D. A sequence of user inputs to the system
+C
+
+
+What is a software design notation?
+A. Notes about the software design.
+B. A graphical or textual description of the software.
+C. Documentation of the software.
+D. A systematic approach for producing a design.
+B
+
+
+What is an actor in a use case?
+A. An object inside the system
+B. A person who performs on stage
+C. An external entity that interacts with the system
+D. The customer to whom the system will be delivered
+C
+
+
+What are software structuring criteria?
+A. Fundamental ideas that can be applied to designing a system.
+B. Systematic approaches for producing a design.
+C. Guidelines used to help in structuring a software system into its components.
+D. Overall plans for developing a design.
+C
+
+
+What is software design strategy?
+A. A graphical or textual description of the software.
+B. A fundamental idea that can be applied to designing a system.
+C. A systematic approach for producing a design.
+D. An overall plan and direction for developing a design.
+D
+
+
+What does a deployment diagram depict?
+A. The physical configuration of the system in terms of physical classes and physical connections between the classes.
+B. The physical configuration of the system in terms of physical objects and physical connections between the objects.
+C. The physical configuration of the system in terms of physical nodes and physical connections between the nodes.
+D. The physical configuration of the system in terms of physical computers and physical networks between the computers.
+C
+
+
+What is a class?
+A. An obbject instance.
+B. The implementation of the object.
+C. A collection of objects with the same characteristics.
+D. A collection of objects with different characteristics.
+C
+
+
+What is a software life cycle?
+A. The life of the software.
+B. A cyclic approach to developing software.
+C. A phased approach to developing software.
+D. The life of software developed in cycles.
+C
+
+
+What is carried out during requirements modeling?
+A. Functional requirements of the system are described in terms of functions, inputs, and outputs.
+B. Functional requirements of the system are described in terms of actors and use cases.
+C. Functional requirements of the system are described textually.
+D. Functional requirements of the system are determined by interviewing users.
+B
+
+
+What is a state-dependent control object?
+A. An object that depends on a state machine.
+B. An object that communicates with a state machine.
+C. An object that controls a state machine.
+D. An object that executes a state machine.
+D
+
+
+What is software modeling?
+A. Developing models of software.
+B. Designing software applications before coding.
+C. Developing software diagrams.
+D. Developing software prototypes.
+B
+
+
+What is a platform-specific model (PSM)?
+A. A specific hardware platform.
+B. A precise model of the software architecture before a commitment is made to a specific platform.
+C. A precise model of the software architecture mapped to a specific platform.
+D. A graphical or textual description of the software.
+C
+
+
+What is a software design concept?
+A. A graphical or textual description of the software.
+B. Documentation of the software.
+C. A fundamental idea that can be applied to designing a system.
+D. A systematic appproach for producing a design
+C
+
+
+What is information hiding in software design?
+A. Hiding information so that it cannot be found.
+B. Hiding a design decision that is considered likely to change.
+C. Hiding information to make it secure.
+D. Encapsulating data in a class.
+B
+
+
+What are the two kinds of UML interaction diagrams?
+A. Class diagram and sequence diagram.
+B. Sequence diagram and communication diagram.
+C. Class diagram and communication diagram.
+D. Statechart and communication diagram.
+B
+
+
+What does an interaction diagram depict?
+A. The state and transitions inside a control object.
+B. Classes and their relationships.
+C. Software objects and the sequence of their interactions.
+D. The external objects communicating with the system
+C
+
+
+What is evolutionary protoryping?
+A. Phased software development
+B. Throwaway prototyping
+C. Risk-driven development
+D. Incremental development
+D
+
+
+What is a platform-independent model (PIM)?
+A. A software platform before a commitment is made to a specific hardware platform.
+B. A precise model of the software architecture before a commitment is made to a specific platform.
+C. A precise model of the software architecture mapped to a specific platform.
+D. A graphical or textual descriptiong of the software.
+B
+
+
+What does a statechart diagram depict?
+A. Objects and links.
+B Classes and relationships.
+C. Objects and messages.
+D. States and events.
+D
+
+
+How is an actor depicted on a use case diagram?
+A. An oval
+B. A stick figure
+C. A box
+D. A dashed line
+B
+
+
+What is a control object?
+A. An object that depends on other objects.
+B. An object that communicates with an external objects.
+C. An object that controls other objects.
+D. An object that is controlled by other objects.
+C
+
+
+What can an inclusion use case be used for?
+A. To describe an inclusive use case
+B. To describe a lengthy interaction with an actor
+C. To describe functionality that is common to more than one use case
+D. To describe a use case that includes other use cases
+C
+
+
+What is carried out during analysis modeling?
+A. Developing use case models
+B. Developing data flow and entity relationships diagrams
+C. Developing static and dynamic models
+D. Developing software architectures
+C
+
+
+Which of the following is a limitation of the waterfall life cycle model?
+A. Software is developed in phases.
+B. Each phase is completed before the next phase is started.
+C. Software development is cyclic.
+D. Software requirements are not properly tested until a working system is available.
+D
+
+
+What does the system context class diagram define?
+A. The entity classes in the system.
+B. How the system interfaces to other systems.
+C. The boundary between the system and the external environment
+D. The context classes in the system
+C
+
+
+What is a boundary object?
+A. An external object
+B. An object that stores data
+C. An object that communicates with an external object
+D. An object that controls other objects.
+C

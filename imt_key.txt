@@ -1,0 +1,4015 @@
+1. The spatial coordinates of a digital image (x,y) are proportional to:
+a) Position
+b) Brightness
+c) Contrast
+d) Noise
+b
+
+
+2. Among the following image processing techniques which is fast, precise and flexible.
+a) Optical
+b) Digital
+c) Electronic
+d) Photographic
+b
+
+
+3. An image is considered to be a function of a(x,y), where a represents:
+a) Height of image
+b) Width of image
+c) Amplitude of image
+d) Resolution of image
+c
+
+
+4. What is pixel?
+a) Pixel is the elements of a digital image
+b) Pixel is the elements of an analog image
+c) Pixel is the cluster of a digital image
+d) Pixel is the cluster of an analog image
+a
+
+
+5. The range of values spanned by the gray scale is called:
+a) Dynamic range
+b) Band range
+c) Peak range
+d) Resolution range
+a
+
+
+6. Which is a colour attribute that describes a pure colour?
+a) Saturation
+b) Hue
+c) Brightness
+d) Intensity
+b
+
+
+7. Which gives a measure of the degree to which a pure colour is diluted by white light?
+a) Saturation
+b) Hue
+c) Intensity
+d) Brightness
+a
+
+
+8. Which means the assigning meaning to a recognized object.
+a) Interpretation
+b) Recognition
+c) Acquisition
+d) Segmentation
+a
+
+
+9. A typical size comparable in quality to monochromatic TV image is of size.
+a) 256 X 256
+b) 512 X 512
+c) 1920 X 1080
+d) 1080 X 1080
+b
+
+
+10. The number of grey values are integer powers of:
+a) 4
+b) 2
+c) 8
+d) 1
+b
+
+
+1. What is the first and foremost step in Image Processing?
+a) Image restoration
+b) Image enhancement
+c) Image acquisition
+d) Segmentation
+c
+
+
+2. In which step of processing, the images are subdivided successively into smaller regions?
+a) Image enhancement
+b) Image acquisition
+c) Segmentation
+d) Wavelets
+d
+
+
+3. What is the next step in image processing after compression?
+a) Wavelets
+b) Segmentation
+c) Representation and description
+d) Morphological processing
+d
+
+
+4. What is the step that is performed before color image processing in image processing?
+a) Wavelets and multi resolution processing
+b) Image enhancement
+c) Image restoration
+d) Image acquisition
+c
+
+
+5. How many number of steps are involved in image processing?
+a) 10
+b) 9
+c) 11
+d) 12
+a
+
+
+6. What is the expanded form of JPEG?
+a) Joint Photographic Expansion Group
+b) Joint Photographic Experts Group
+c) Joint Photographs Expansion Group
+d) Joint Photographic Expanded Group
+b
+
+
+7. Which of the following step deals with tools for extracting image components those are useful in the representation and description of shape?
+a) Segmentation
+b) Representation & description
+c) Compression
+d) Morphological processing
+d
+
+
+8. In which step of the processing, assigning a label (e.g., "vehicle") to an object based on its descriptors is done?
+a) Object recognition
+b) Morphological processing
+c) Segmentation
+d) Representation & description
+a
+
+
+9. What role does the segmentation play in image processing?
+a) Deals with extracting attributes that result in some quantitative information of interest
+b) Deals with techniques for reducing the storage required saving an image, or the bandwidth required transmitting it
+c) Deals with partitioning an image into its constituent parts or objects
+d) Deals with property in which images are subdivided successively into smaller regions
+c
+
+
+10. What is the correct sequence of steps in image processing?
+a) Image acquisition->Image enhancement->Image restoration->Color image processing->Compression->Wavelets and multi resolution processing->Morphological processing->Segmentation->Representation & description->Object recognition
+b) Image acquisition->Image enhancement->Image restoration->Color image processing->Wavelets and multi resolution processing->Compression->Morphological processing->Segmentation->Representation & description->Object recognition
+c) Image acquisition->Image enhancement->Color image processing->Image restoration->Wavelets and multi resolution processing->Compression->Morphological processing->Segmentation->Representation & description->Object recognition
+d) Image acquisition->Image enhancement->Image restoration->Color image processing->Wavelets and multi resolution processing->Compression->Morphological processing->Representation & description->Segmentation->Object recognition
+b
+
+
+1. To convert a continuous sensed data into Digital form, which of the following is required?
+a) Sampling
+b) Quantization
+c) Both Sampling and Quantization
+d) Neither Sampling nor Quantization
+c
+
+
+2. To convert a continuous image f(x, y) to digital form, we have to sample the function in __________
+a) Coordinates
+b) Amplitude
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+3. For a continuous image f(x, y), how could be Sampling defined?
+a) Digitizing the coordinate values
+b) Digitizing the amplitude values
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+4. For a continuous image f(x, y), Quantization is defined as
+a) Digitizing the coordinate values
+b) Digitizing the amplitude values
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+5. Validate the statement:
+"For a given image in one-dimension given by function f(x, y), to sample the function we take equally spaced samples, superimposed on the function, along a horizontal line. However, the sample values still span (vertically) a continuous range of gray-level values. So, to convert the given function into a digital function, the gray-level values must be divided into various discrete levels."
+a) True
+b) False
+a
+
+
+6. How is sampling been done when an image is generated by a single sensing element combined with mechanical motion?
+a) The number of sensors in the strip defines the sampling limitations in one direction and Mechanical motion in the other direction.
+b) The number of sensors in the sensing array establishes the limits of sampling in both directions.
+c) The number of mechanical increments when the sensor is activated to collect data.
+d) None of the mentioned.
+c
+
+
+7. How does sampling gets accomplished with a sensing strip being used for image acquisition?
+a) The number of sensors in the strip establishes the sampling limitations in one image direction and Mechanical motion in the other direction
+b) The number of sensors in the sensing array establishes the limits of sampling in both directions
+c) The number of mechanical increments when the sensor is activated to collect data
+d) None of the mentioned
+a
+
+
+8. How is sampling accomplished when a sensing array is used for image acquisition?
+a) The number of sensors in the strip establishes the sampling limitations in one image direction and Mechanical motion in the other direction
+b) The number of sensors in the sensing array defines the limits of sampling in both directions
+c) The number of mechanical increments at which we activate the sensor to collect data
+d) None of the mentioned
+b
+
+
+9. The quality of a digital image is well determined by ___________
+a) The number of samples
+b) The discrete gray levels
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+1. Assume that an image f(x, y) is sampled so that the result has M rows and N columns. If the values of the coordinates at the origin are (x, y) = (0, 0), then the notation (0, 1) is used to signify :
+a) Second sample along first row
+b) First sample along second row
+c) First sample along first row
+d) Second sample along second row
+a
+
+
+2. The resulting image of sampling and quantization is considered a matrix of real numbers. By what name(s) the element of this matrix array is called __________
+a) Image element or Picture element
+b) Pixel or Pel
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+3. Let Z be the set of real integers and R the set of real numbers. The sampling process may be viewed as partitioning the x-y plane into a grid, with the central coordinates of each grid being from the Cartesian product Z2, that is a set of all ordered pairs (zi, zj), with zi and zj being integers from Z. Then, f(x, y) is said a digital image if:
+a) (x, y) are integers from Z2 and f is a function that assigns a gray-level value (from Z) to each distinct pair of coordinates (x, y)
+b) (x, y) are integers from R2 and f is a function that assigns a gray-level value (from R) to each distinct pair of coordinates (x, y)
+c) (x, y) are integers from R2 and f is a function that assigns a gray-level value (from Z) to each distinct pair of coordinates (x, y)
+d) (x, y) are integers from Z2 and f is a function that assigns a gray-level value (from R) to each distinct pair of coordinates (x, y)
+d
+
+
+4. Let Z be the set of real integers and R the set of real numbers. The sampling process may be viewed as partitioning the x-y plane into a grid, with the central coordinates of each grid being from the Cartesian product Z2, that is a set of all ordered pairs (zi, zj), with zi and zj being integers from Z. Then, f(x, y) is a digital image if (x, y) are integers from Z2 and f is a function that assigns a gray-level value (that is, a real number from the set R) to each distinct coordinate pair (x, y). What happens to the digital image if the gray levels also are integers?
+a) The Digital image then becomes a 2-D function whose coordinates and amplitude values are integers
+b) The Digital image then becomes a 1-D function whose coordinates and amplitude values are integers
+c) The gray level can never be integer
+d) None of the mentioned
+a
+
+
+5. The digitization process i.e. the digital image has M rows and N columns, requires decisions about values for M, N, and for the number, L, of gray levels allowed for each pixel. The value M and N have to be:
+a) M and N have to be positive integer
+b) M and N have to be negative integer
+c) M have to be negative and N have to be positive integer
+d) M have to be positive and N have to be negative integer
+a
+
+
+6. The digitization process i.e. the digital image has M rows and N columns, requires decisions about values for M, N, and for the number, L, of max gray levels. There are no requirements on M and N, other than that M and N have to be positive integer. However, the number of gray levels typically is
+a) An integer power of 2 i.e. L = 2k
+b) A Real power of 2 i.e. L = 2k
+c) Two times the integer value i.e. L = 2k
+d) None of the mentioned
+a
+
+
+7. The digitization process i.e. the digital image has M rows and N columns, requires decisions about values for M, N, and for the number, L, of max gray levels is an integer power of 2 i.e. L = 2k, allowed for each pixel. If we assume that the discrete levels are equally spaced and that they are integers then they are in the interval __________ and Sometimes the range of values spanned by the gray scale is called the ________ of an image.
+a) [0, L - 1] and static range respectively
+b) [0, L / 2] and dynamic range respectively
+c) [0, L / 2] and static range respectively
+d) [0, L - 1] and dynamic range respectively
+d
+
+
+8. After digitization process a digital image with M rows and N columns have to be positive and for the number, L, max gray levels i.e. an integer power of 2 for each pixel. Then, the number b, of bits required to store a digitized image is:
+a) b=MNk
+b) b=MNL
+c) b=MLk
+d) b=LNk
+a
+
+
+9. An image whose gray-levels span a significant portion of gray scale have __________ dynamic range while an image with dull, washed out gray look have __________ dynamic range.
+a) Low and High respectively
+b) High and Low respectively
+c) Both have High dynamic range, irrespective of gray levels span significance on gray scale
+d) Both have Low dynamic range, irrespective of gray levels span significance on gray scale
+b
+
+
+10. Validate the statement "When in an Image an appreciable number of pixels exhibit high dynamic range, the image will have high contrast."
+a) True
+b) False
+a
+
+
+11. In digital image of M rows and N columns and L discrete gray levels, calculate the bits required to store a digitized image for M=N=32 and L=16.
+a) 16384
+b) 4096
+c) 8192
+d) 512
+b
+
+
+1. A continuous image is digitised at _______ points.
+a) random
+b) vertex
+c) contour
+d) sampling
+d
+
+
+2. The transition between continuous values of the image function and its digital equivalent is called ______________
+a) Quantisation
+b) Sampling
+c) Rasterisation
+d) None of the Mentioned
+a
+
+
+3. Images quantised with insufficient brightness levels will lead to the occurrence of ____________
+a) Pixillation
+b) Blurring
+c) False Contours
+d) None of the Mentioned
+c
+
+
+4. The smallest discernible change in intensity level is called ____________
+a) Intensity Resolution
+b) Contour
+c) Saturation
+d) Contrast
+a
+
+
+5. What is the tool used in tasks such as zooming, shrinking, rotating, etc.?
+a) Sampling
+b) Interpolation
+c) Filters
+d) None of the Mentioned
+b
+
+
+6. The type of Interpolation where for each new location the intensity of the immediate pixel is assigned is ___________
+a) bicubic interpolation
+b) cubic interpolation
+c) bilinear interpolation
+d) nearest neighbour interpolation
+d
+
+
+7. The type of Interpolation where the intensity of the FOUR neighbouring pixels is used to obtain intensity a new location is called ___________
+a) cubic interpolation
+b) nearest neighbour interpolation
+c) bilinear interpolation
+d) bicubic interpolation
+b
+
+
+8. Dynamic range of imaging system is a ratio where the upper limit is determined by
+a) Saturation
+b) Noise
+c) Brightness
+d) Contrast
+a
+
+
+9. For Dynamic range ratio the lower limit is determined by
+a) Saturation
+b) Brightness
+c) Noise
+d) Contrast
+c
+
+
+10. Quantitatively, spatial resolution cannot be represented in which of the following ways
+a) line pairs
+b) pixels
+c) dots
+d) none of the Mentioned
+d
+
+
+1. The most familiar single sensor used for Image Acquisition is
+a) Microdensitometer
+b) Photodiode
+c) CMOS
+d) None of the Mentioned
+b
+
+
+2. A geometry consisting of in-line arrangement of sensors for image acquisition
+a) A photodiode
+b) Sensor strips
+c) Sensor arrays
+d) CMOS
+b
+
+
+3. CAT in imaging stands for
+a) Computer Aided Telegraphy
+b) Computer Aided Tomography
+c) Computerised Axial Telegraphy
+d) Computerised Axial Tomography
+d
+
+
+4. The section of the real plane spanned by the coordinates of an image is called the _____________
+a) Spacial Domain
+b) Coordinate Axes
+c) Plane of Symmetry
+d) None of the Mentioned
+a
+
+
+5. The difference is intensity between the highest and the lowest intensity levels in an image is ___________
+a) Noise
+b) Saturation
+c) Contrast
+d) Brightness
+c
+
+
+6. _____________ is the effect caused by the use of an insufficient number of intensity levels in smooth areas of a digital image.
+a) Gaussian smooth
+b) Contouring
+c) False Contouring
+d) Interpolation
+c
+
+
+7. The process of using known data to estimate values at unknown locations is called
+a) Acquisition
+b) Interpolation
+c) Pixelation
+d) None of the Mentioned
+b
+
+
+8. Which of the following is NOT an application of Image Multiplication?
+a) Shading Correction
+b) Masking
+c) Pixelation
+d) Region of Interest operations
+c
+
+
+9. The procedure done on a digital image to alter the values of its individual pixels is
+a) Neighbourhood Operations
+b) Image Registration
+c) Geometric Spacial Transformation
+d) Single Pixel Operation
+d
+
+
+10. In Geometric Spacial Transformation, points whose locations are known precisely in input and reference images.
+a) Tie points
+b) Réseau points
+c) Known points
+d) Key-points
+a
+
+
+1. Of the following, _________ has the maximum frequency.
+a) UV Rays
+b) Gamma Rays
+c) Microwaves
+d) Radio Waves
+b
+
+
+2. In the Visible spectrum the ______ colour has the maximum wavelength.
+a) Violet
+b) Blue
+c) Red
+d) Yellow
+c
+
+
+3. Wavelength and frequency are related as : (c = speed of light)
+a) c = wavelength / frequency
+b) frequency = wavelength / c
+c) wavelength = c * frequency
+d) c = wavelength * frequency
+d
+
+
+4. Electromagnetic waves can be visualised as a
+a) sine wave
+b) cosine wave
+c) tangential wave
+d) None of the mentioned
+a
+
+
+5. How is radiance measured?
+a) lumens
+b) watts
+c) armstrong
+d) hertz
+b
+
+
+6. Which of the following is used for chest and dental scans?
+a) Hard X-Rays
+b) Soft X-Rays
+c) Radio waves
+d) Infrared Rays
+b
+
+
+7. Which of the following is impractical to measure?
+a) Frequency
+b) Radiance
+c) Luminance
+d) Brightness
+d
+
+
+8. Massless particle containing a certain amount of energy is called
+a) Photon
+b) Shell
+c) Electron
+d) None of the mentioned
+a
+
+
+9. What do you mean by achromatic light?
+a) Chromatic light
+b) Monochromatic light
+c) Infrared light
+d) Invisible light
+b
+
+
+10. Which of the following embodies the achromatic notion of intensity?
+a) Luminance
+b) Brightness
+c) Frequency
+d) Radiance
+b
+
+
+1. How is array operation carried out involving one or more images?
+a) array by array
+b) pixel by pixel
+c) column by column
+d) row by row
+b
+
+
+2. The property indicating that the output of a linear operation due to the sum of two inputs is same as performing the operation on the inputs individually and then summing the results is called ___________
+a) additivity
+b) heterogeneity
+c) homogeneity
+d) None of the Mentioned
+a
+
+
+3. The property indicating that the output of a linear operation to a constant times as input is the same as the output of operation due to original input multiplied by that constant is called _________
+a) additivity
+b) heterogeneity
+c) homogeneity
+d) None of the Mentioned
+c
+
+
+4. Enhancement of differences between images is based on the principle of ____________
+a) Additivity
+b) Homogeneity
+c) Subtraction
+d) None of the Mentioned
+c
+
+
+5. A commercial use of Image Subtraction is ___________
+a) Mask mode radiography
+b) MRI scan
+c) CT scan
+d) None of the Mentioned
+a
+
+
+6. Region of Interest (ROI) operations is commonly called as ___________
+a) Shading correction
+b) Masking
+c) Dilation
+d) None of the Mentioned
+b
+
+
+7. If every element of a set A is also an element of a set B, then A is said to be a _________ of set B.
+a) Disjoint set
+b) Union
+c) Subset
+d) Complement set
+c
+
+
+8. Consider two regions A and B composed of foreground pixels. The ________ of these two sets is the set of elements belonging to set A or set B or both.
+a) OR
+b) AND
+c) NOT
+d) XOR
+a
+
+
+9. Imaging systems having physical artefacts embedded in the imaging sensors produce a set of points called __________
+a) Tie Points
+b) Control Points
+c) Reseau Marks
+d) None of the Mentioned
+c
+
+
+10. Image processing approaches operating directly on pixels of input image work directly in ____________
+a) Transform domain
+b) Spatial domain
+c) Inverse transformation
+d) None of the Mentioned
+b
+
+
+1. Noise reduction is obtained by blurring the image using smoothing filter.
+a) True
+b) False
+a
+
+
+2. What is the output of a smoothing, linear spatial filter?
+a) Median of pixels
+b) Maximum of pixels
+c) Minimum of pixels
+d) Average of pixels
+d
+
+
+3. Smoothing linear filter is also known as median filter.
+a) True
+b) False
+b
+
+
+4. Which of the following in an image can be removed by using smoothing filter?
+a) Smooth transitions of gray levels
+b) Smooth transitions of brightness levels
+c) Sharp transitions of gray levels
+d) Sharp transitions of brightness levels
+c
+
+
+5. Which of the following is the disadvantage of using smoothing filter?
+a) Blur edges
+b) Blur inner pixels
+c) Remove sharp transitions
+d) Sharp edges
+a
+
+
+6. Smoothing spatial filters doesn't smooth the false contours.
+a) True
+b) False
+b
+
+
+7. The mask shown in the figure below belongs to which type of filter?
+
+1/16 * [1 2 1; 2 4 2; 1 2 1]
+a) Sharpening spatial filter
+b) Median filter
+c) Sharpening frequency filter
+d) Smoothing spatial filter
+d
+
+
+8. The mask shown in the figure below belongs to which type of filter?
+
+1/9 * [ 1 1 1; 1 1 1; 1 1 1]
+a) Sharpening spatial filter
+b) Median filter
+c) Smoothing spatial filter
+d) Sharpening frequency filter
+c
+
+
+9. Box filter is a type of smoothing filter.
+a) True
+b) False
+a
+
+
+10. If the size of the averaging filter used to smooth the original image to first image is 9, then what would be the size of the averaging filter used in smoothing the same original picture to second in second image?
+a) 3
+b) 5
+c) 9
+d) 15
+d
+
+
+11. Which of the following comes under the application of image blurring?
+a) Object detection
+b) Gross representation
+c) Object motion
+d) Image segmentation
+b
+
+
+12. Which of the following filters response is based on ranking of pixels?
+a) Nonlinear smoothing filters
+b) Linear smoothing filters
+c) Sharpening filters
+d) Geometric mean filter
+a
+
+
+13. Median filter belongs to which category of filters?
+a) Linear spatial filter
+b) Frequency domain filter
+c) Order static filter
+d) Sharpening filter
+c
+
+
+14. Median filters are effective in the presence of impulse noise.
+a) True
+b) False
+a
+
+
+15. What is the maximum area of the cluster that can be eliminated by using an n×n median filter?
+a) n^2
+b) n^/2
+c) 2*n^2
+d) n
+b
+
+
+1. Which of the following expression is used to denote spatial domain process?
+a) g(x,y)=T[f(x,y)]
+b) f(x+y)=T[g(x+y)]
+c) g(xy)=T[f(xy)]
+d) g(x-y)=T[f(x-y)]
+a
+
+
+2. Which of the following shows three basic types of functions used frequently for image enhancement?
+a) Linear, logarithmic and inverse law
+b) Power law, logarithmic and inverse law
+c) Linear, logarithmic and power law
+d) Linear, exponential and inverse law
+b
+
+
+3. Which expression is obtained by performing the negative transformation on the negative of an image with gray levels in the range[0,L-1] ?
+a) s=L+1-r
+b) s=L+1+r
+c) s=L-1-r
+d) s=L-1+r
+c
+
+
+4. What is the general form of representation of log transformation?
+a) s=clog_10(1/r)
+b) s=clog_10(1+r)
+c) s=clog_10(1*r)
+d) s=clog_10(1-r)
+b
+
+
+5. What is the general form of representation of power transformation?
+a) s=cr^γ
+b) c=sr^γ
+c) s=rc
+d) s=rc^γ
+a
+
+
+6. What is the name of process used to correct the power-law response phenomena?
+a) Beta correction
+b) Alpha correction
+c) Gamma correction
+d) Pie correction
+c
+
+
+8. In contrast stretching, if r1=s1 and r2=s2 then which of the following is true?
+a) The transformation is not a linear function that produces no changes in gray levels
+b) The transformation is a linear function that produces no changes in gray levels
+c) The transformation is a linear function that produces changes in gray levels
+d) The transformation is not a linear function that produces changes in gray levels
+b
+
+
+7. Which of the following transformation function requires much information to be specified at the time of input?
+a) Log transformation
+b) Power transformation
+c) Piece-wise transformation
+d) Linear transformation
+c
+
+
+9. In contrast stretching, if r1=r2, s1=0 and s2=L-1 then which of the following is true?
+a) The transformation becomes a thresholding function that creates an octal image
+b) The transformation becomes a override function that creates an octal image
+c) The transformation becomes a thresholding function that creates a binary image
+d) The transformation becomes a thresholding function that do not create an octal image
+c
+
+
+10. In contrast stretching, if r1≤r2and s1≤s2 then which of the following is true?
+a) The transformation function is double valued and exponentially increasing
+b) The transformation function is double valued and monotonically increasing
+c) The transformation function is single valued and exponentially increasing
+d) The transformation function is single valued and monotonically increasing
+d
+
+
+11. In which type of slicing, highlighting a specific range of gray levels in an image often is desired?
+a) Gray-level slicing
+b) Bit-plane slicing
+c) Contrast stretching
+d) Byte-level slicing
+a
+
+
+12. Which of the following depicts the main functionality of the Bit-plane slicing?
+a) Highlighting a specific range of gray levels in an image
+b) Highlighting the contribution made to total image appearance by specific bits
+c) Highlighting the contribution made to total image appearance by specific byte
+d) Highlighting the contribution made to total image appearance by specific pixels
+b
+
+
+1. Which of the following is the primary objective of sharpening of an image?
+a) Blurring the image
+b) Highlight fine details in the image
+c) Increase the brightness of the image
+d) Decrease the brightness of the image
+b
+
+
+2. Image sharpening process is used in electronic printing.
+a) True
+b) False
+a
+
+
+3. In spatial domain, which of the following operation is done on the pixels in sharpening the image?
+a) Integration
+b) Average
+c) Median
+d) Differentiation
+d
+
+
+4. Image differentiation enhances the edges, discontinuities and deemphasizes the pixels with slow varying gray levels.
+a) True
+b) False
+a
+
+
+5. In which of the following cases, we wouldn't worry about the behaviour of sharpening filter?
+a) Flat segments
+b) Step discontinuities
+c) Ramp discontinuities
+d) Slow varying gray values
+d
+
+
+6. Which of the following is the valid response when we apply a first derivative?
+a) Non-zero at flat segments
+b) Zero at the onset of gray level step
+c) Zero in flat segments
+d) Zero along ramps
+c
+
+
+7. Which of the following is not a valid response when we apply a second derivative?
+a) Zero response at onset of gray level step
+b) Nonzero response at onset of gray level step
+c) Zero response at flat segments
+d) Nonzero response along the ramps
+b
+
+
+8. If f(x,y) is an image function of two variables, then the first order derivative of a one dimensional function, f(x) is:
+a) f(x+1)-f(x)
+b) f(x)-f(x+1)
+c) f(x-1)-f(x+1)
+d) f(x)+f(x-1)
+a
+
+
+9. Isolated point is also called as noise point.
+a) True
+b) False
+a
+
+
+10. What is the thickness of the edges produced by first order derivatives when compared to that of second order derivatives?
+a) Finer
+b) Equal
+c) Thicker
+d) Independent
+c
+
+
+11. First order derivative can enhance the fine detail in the image compared to that of second order derivative.
+a) True
+b) False
+b
+
+
+12. Which of the following derivatives produce a double response at step changes in gray level?
+a) First order derivative
+b) Third order derivative
+c) Second order derivative
+d) First and second order derivatives
+c
+
+
+1. The objective of sharpening spatial filters is/are to ___________
+a) Highlight fine detail in an image
+b) Enhance detail that has been blurred because of some error
+c) Enhance detail that has been blurred because of some natural effect of some method of image acquisition
+d) All of the mentioned
+d
+
+
+2. Sharpening is analogous to which of the following operations?
+a) To spatial integration
+b) To spatial differentiation
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+3. Which of the following fact(s) is/are true about sharpening spatial filters using digital differentiation?
+a) Sharpening spatial filter response is proportional to the discontinuity of the image at the point where the derivative operation is applied
+b) Sharpening spatial filters enhances edges and discontinuities like noise
+c) Sharpening spatial filters deemphasizes areas that have slowly varying gray-level values
+d) All of the mentioned
+d
+
+
+4. Which of the facts(s) is/are true for the first order derivative of a digital function?
+a) Must be nonzero in the areas of constant grey values
+b) Must be zero at the onset of a gray-level step or ramp discontinuities
+c) Must be nonzero along the gray-level ramps
+d) None of the mentioned
+c
+
+
+5. Which of the facts(s) is/are true for the second order derivative of a digital function?
+a) Must be zero in the flat areas
+b) Must be nonzero at the onset and end of a gray-level step or ramp discontinuities
+c) Must be zero along the ramps of constant slope
+d) All of the mentioned
+c
+
+
+6. The derivative of digital function is defined in terms of difference. Then, which of the following defines the first order derivative ∂f/∂x= ___________ of a one-dimensional function f(x)?
+a) f(x+1)-f(x)
+b) f(x+1)+ f(x-1)-2f(x)
+c) All of the mentioned depending upon the time when partial derivative will be dealt along two spatial axes
+d) None of the mentioned
+a
+
+
+7. The derivative of digital function is defined in terms of difference. Then, which of the following defines the second order derivative ∂^2f/∂x^2 = ___________ of a one-dimensional function f(x)?
+a) f(x+1)-f(x)
+b) f(x+1)+ f(x-1)-2f(x)
+c) All of the mentioned depending upon the time when partial derivative will be dealt along two spatial axes
+d) None of the mentioned
+b
+
+
+8. What kind of relation can be obtained between first order derivative and second order derivative of an image having a on the basis of edge productions that shows a transition like a ramp of constant slope?
+a) First order derivative produces thick edge while second order produces a very fine edge
+b) Second order derivative produces thick edge while first order produces a very fine edge
+c) Both first and second order produces thick edge
+d) Both first and second order produces a very fine edge
+a
+
+
+9. What kind of relation can be obtained between first order derivative and second order derivative of an image on the response obtained by encountering an isolated noise point in the image?
+a) First order derivative has a stronger response than a second order
+b) Second order derivative has a stronger response than a first order
+c) Both enhances the same and so the response is same for both first and second order derivative
+d) None of the mentioned
+b
+
+
+10. What kind of relation can be obtained between the response of first order derivative and second order derivative of an image having a transition into gray-level step from zero?
+a) First order derivative has a stronger response than a second order
+b) Second order derivative has a stronger response than a first order
+c) Both first and second order derivative has the same response
+d) None of the mentioned
+c
+
+
+11. If in an image there exist similar change in gray-level values in the image, which of the following shows a stronger response using second order derivative operator for sharpening?
+a) A line
+b) A step
+c) A point
+d) None of the mentioned
+c
+
+
+1. The principle objective of Sharpening, to highlight transitions is ________
+a) Pixel density
+b) Composure
+c) Intensity
+d) Brightness
+c
+
+
+2. How can Sharpening be achieved?
+a) Pixel averaging
+b) Slicing
+c) Correlation
+d) None of the mentioned
+d
+
+
+3. What does Image Differentiation enhance?
+a) Edges
+b) Pixel Density
+c) Contours
+d) None of the mentioned
+a
+
+
+4. What does Image Differentiation de-emphasize?
+a) Pixel Density
+b) Contours
+c) Areas with slowly varying intensities
+d) None of the mentioned
+c
+
+
+5. The requirements of the First Derivative of a digital function:
+a) Must be zero in areas of constant intensity
+b) Must be non-zero at the onset of an intensity step
+c) Must be non-zero along ramps
+d) All of the Mentioned
+d
+
+
+6. What is the Second Derivative of Image Sharpening called?
+a) Gaussian
+b) Laplacian
+c) Canny
+d) None of the mentioned
+b
+
+
+7. The ability that rotating the image and applying the filter gives the same result, as applying the filter to the image first, and then rotating it, is called _____________
+a) Isotropic filtering
+b) Laplacian
+c) Rotation Invariant
+d) None of the mentioned
+c
+
+
+8. For a function f(x,y), the gradient of 'f' at coordinates (x,y) is defined as a ___________
+a) 3-D row vector
+b) 3-D column vector
+c) 2-D row vector
+d) 2-D column vector
+d
+
+
+9. Where do you find frequent use of Gradient?
+a) Industrial inspection
+b) MRI Imaging
+c) PET Scan
+d) None of the mentioned
+a
+
+
+10. Which of the following occurs in Unsharp Masking?
+a) Blurring original image
+b) Adding a mask to original image
+c) Subtracting blurred image from original
+d) All of the mentioned
+d
+
+
+1. Which of the following make an image difficult to enhance?
+a) Narrow range of intensity levels
+b) Dynamic range of intensity levels
+c) High noise
+d) All of the mentioned
+d
+
+
+2. Which of the following is a second-order derivative operator?
+a) Histogram
+b) Laplacian
+c) Gaussian
+d) None of the mentioned
+b
+
+
+3. Response of the gradient to noise and fine detail is _____________ the Laplacian's.
+a) equal to
+b) lower than
+c) greater than
+d) has no relation with
+b
+
+
+4. Dark characteristics in an image are better solved using ___________
+a) Laplacian Transform
+b) Gaussian Transform
+c) Histogram Specification
+d) Power-law Transformation
+d
+
+
+5. What is the smallest possible value of a gradient image?
+a) e
+b) 1
+c) 0
+d) -e
+c
+
+
+6. Which of the following fails to work on dark intensity distributions?
+a) Laplacian Transform
+b) Gaussian Transform
+c) Histogram Equalization
+d) Power-law Transformation
+c
+
+
+7. _____________ is used to detect diseases such as bone infection and tumors.
+a) MRI Scan
+b) PET Scan
+c) Nuclear Whole Body Scan
+d) X-Ray
+c
+
+
+8. How do you bring out more of the skeletal detail from a Nuclear Whole Body Bone Scan?
+a) Sharpening
+b) Enhancing
+c) Transformation
+d) None of the mentioned
+a
+
+
+9. An alternate approach to median filtering is ______________
+a) Use a mask
+b) Gaussian filter
+c) Sharpening
+d) Laplacian filter
+a
+
+
+10. Final step of enhancement lies in _____________ of the sharpened image.
+a) Increase range of contrast
+b) Increase range of brightness
+c) Increase dynamic range
+d) None of the mentioned
+c
+
+
+1. What is accepting or rejecting certain frequency components called as?
+a) Filtering
+b) Eliminating
+c) Slicing
+d) None of the Mentioned
+a
+
+
+2. A filter that passes low frequencies is _____________
+a) Band pass filter
+b) High pass filter
+c) Low pass filter
+d) None of the Mentioned
+c
+
+
+3. What is the process of moving a filter mask over the image and computing the sum of products at each location called as?
+a) Convolution
+b) Correlation
+c) Linear spatial filtering
+d) Non linear spatial filtering
+b
+
+
+4. The standard deviation controls ___________ of the bell (2-D Gaussian function of bell shape).
+a) Size
+b) Curve
+c) Tightness
+d) None of the Mentioned
+c
+
+
+5. What is required to generate an M X N linear spatial filter?
+a) MN mask coefficients
+b) M+N coordinates
+c) MN spatial coefficients
+d) None of the Mentioned
+a
+
+
+6. What is the difference between Convolution and Correlation?
+a) Image is pre-rotated by 180 degree for Correlation
+b) Image is pre-rotated by 180 degree for Convolution
+c) Image is pre-rotated by 90 degree for Correlation
+d) Image is pre-rotated by 90 degree for Convolution
+b
+
+
+7. Convolution and Correlation are functions of _____________
+a) Distance
+b) Time
+c) Intensity
+d) Displacement
+d
+
+
+8. The function that contains a single 1 with the rest being 0s is called ______________
+a) Identity function
+b) Inverse function
+c) Discrete unit impulse
+d) None of the Mentioned
+c
+
+
+9. Which of the following involves Correlation?
+a) Matching
+b) Key-points
+c) Blobs
+d) None of the Mentioned.
+a
+
+
+10. An example of a continuous function of two variables is __________
+b) Intensity function
+c) Contrast stretching
+d) Gaussian function
+d
+
+
+1. The histogram of a digital image with gray levels in the range [0, L-1] is represented by a discrete function:
+a) h(r_k)=n_k
+b) h(r_k)=n/n_k
+c) p(r_k)=n_k
+d) h(r_k)=n_k/n
+a
+
+
+2. How is the expression represented for the normalized histogram?
+a) p(r_k)=n_k
+b) p(r_k)=n_k/n
+c) p(r_k)=nn_k
+d) p(r_k)=n/n_k
+b
+
+
+3. Which of the following conditions does the T(r) must satisfy?
+a) T(r) is double-valued and monotonically decreasing in the interval 0≤r≤1; and 0≤T(r)≤1 for 0≤r≤1
+b) T(r) is double-valued and monotonically increasing in the interval 0≤r≤1; and 0≤T(r)≤1 for 0≤r≤1
+c) T(r) is single-valued and monotonically decreasing in the interval 0≤r≤1; and 0≤T(r)≤1 for 0≤r≤1
+d) T(r) is single-valued and monotonically increasing in the interval 0≤r≤1; and 0≤T(r)≤1 for 0≤r≤1
+d
+
+
+4. The inverse transformation from s back to r is denoted as:
+a) s=T^-1(r) for 0≤s≤1
+b) r=T^-1(s) for 0≤r≤1
+c) r=T^-1(s) for 0≤s≤1
+d) r=T^-1(s) for 0≥s≥1
+c
+
+
+5. The probability density function p_s (s) of the transformed variable s can be obtained by using which of the following formula?
+a) p_s(s)=p_r(r) |dr/ds|
+b) p_s(s)=p_r(r) |ds/dr|
+c) p_r(r)=p_s(s) |dr/ds|
+d) p_s(s)=p_r(r) |dr/dr|
+a
+
+
+6. A transformation function of particular importance in image processing is represented in which of the following form?
+a) s=T(r)=∫0-(2r) p_r(ω)dω
+b) s=T(r)=∫0-(r-1) p_r(ω)dω
+c) s=T(r)=∫0-(r/2) p_r(ω)dω
+d) s=T(r)=∫0p_r(ω)dω
+d
+
+
+7. Histogram equalization or Histogram linearization is represented by of the following equation:
+a) sk=∑kj=1 nj/n k=0,1,2,......,L-1
+b) sk=∑kj=0 nj/n k=0,1,2,......,L-1
+c) sk=∑kj=0 n/nj k=0,1,2,......,L-1
+d) sk=∑kj=n nj/n k=0,1,2,......,L-1
+b
+
+
+8. What is the method that is used to generate a processed image that have a specified histogram?
+a) Histogram linearization
+b) Histogram equalization
+c) Histogram matching
+d) Histogram processing
+c
+
+
+9. Histograms are the basis for numerous spatial domain processing techniques.
+a) True
+b) False
+a
+
+
+10. In a dark image, the components of histogram are concentrated on which side of the grey scale?
+a) High
+b) Medium
+c) Low
+d) Evenly distributed
+c
+
+
+1. What is the basis for numerous spatial domain processing techniques?
+a) Transformations
+b) Scaling
+c) Histogram
+d) None of the Mentioned
+c
+
+
+2. In _______ image we notice that the components of histogram are concentrated on the low side on intensity scale.
+a) bright
+b) dark
+c) colourful
+d) All of the Mentioned
+b
+
+
+3. What is Histogram Equalisation also called as?
+a) Histogram Matching
+b) Image Enhancement
+c) Histogram linearisation
+d) None of the Mentioned
+c
+
+
+4. What is Histogram Matching also called as?
+a) Histogram Equalisation
+b) Histogram Specification
+c) Histogram linearisation
+d) None of the Mentioned
+b
+
+
+5. Histogram Equalisation is mainly used for ________________
+a) Image enhancement
+b) Blurring
+c) Contrast adjustment
+d) None of the Mentioned
+a
+
+
+6. To reduce computation if one utilises non-overlapping regions, it usually produces ______ effect.
+a) Dimming
+b) Blurred
+c) Blocky
+d) None of the Mentioned
+c
+
+
+7. What does SEM stands for?
+a) Scanning Electronic Machine
+b) Self Electronic Machine
+c) Scanning Electron Microscope
+d) Scanning Electric Machine
+c
+
+
+8. The type of Histogram Processing in which pixels are modified based on the intensity distribution of the image is called _______________.
+a) Intensive
+b) Local
+c) Global
+d) Random
+c
+
+
+9. Which type of Histogram Processing is suited for minute detailed enhancements?
+a) Intensive
+b) Local
+c) Global
+d) Random
+b
+
+
+10. In uniform PDF, the expansion of PDF is ________________
+a) Portable Document Format
+b) Post Derivation Function
+c) Previously Derived Function
+d) Probability Density Function
+d
+
+
+1. The output of a smoothing, linear spatial filtering is a ____________ of the pixels contained in the neighbourhood of the filter mask.
+a) Sum
+b) Product
+c) Average
+d) Dot Product
+c
+
+
+2. Averaging filters is also known as ____________ filter.
+a) Low pass
+b) High pass
+c) Band pass
+d) None of the Mentioned
+a
+
+
+3. What is the undesirable side effects of Averaging filters?
+a) No side effects
+b) Blurred image
+c) Blurred edges
+d) Loss of sharp transitions
+c
+
+
+4. A spatial averaging filter in which all coefficients are equal is called _______________.
+a) Square filter
+b) Neighbourhood
+c) Box filter
+d) Zero filter
+c
+
+
+5. Which term is used to indicate that pixels are multiplied by different coefficients?
+a) Weighted average
+b) Squared average
+c) Spatial average
+d) None of the Mentioned
+a
+
+
+6. The non linear spacial filters whose response is based on ordering of the pixels contained is called _____________.
+a) Box filter
+b) Square filter
+c) Gaussian filter
+d) Order-statistic filter
+d
+
+
+7. Impulse noise in Order-statistic filter is also called as _______________
+a) Median noise
+b) Bilinear noise
+c) Salt and pepper noise
+d) None of the Mentioned
+c
+
+
+8. Best example for a Order-statistic filter is ____________________
+a) Impulse filter
+b) Averaging filter
+c) Median filter
+d) None of the Mentioned
+c
+
+
+9. What does "eliminated" refer to in median filter?
+a) Force to average intensity of neighbours
+b) Force to median intensity of neighbours
+c) Eliminate median value of pixels
+d) None of the Mentioned
+b
+
+
+10. Which of the following is best suited for salt-and-pepper noise elimination?
+a) Average filter
+b) Box filter
+c) Max filter
+d) Median filter
+d
+
+
+1. Smoothing filter is used for which of the following work(s)?
+a) Blurring
+b) Noise reduction
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+2. The response of the smoothing linear spatial filter is/are __________
+a) Sum of image pixel in the neighborhood filter mask
+b) Difference of image in the neighborhood filter mask
+c) Product of pixel in the neighborhood filter mask
+d) Average of pixels in the neighborhood of filter mask
+d
+
+
+3. Which of the following filter(s) results in a value as average of pixels in the neighborhood of filter mask.
+a) Smoothing linear spatial filter
+b) Averaging filter
+c) Lowpass filter
+d) All of the mentioned
+d
+
+
+4. What is/are the resultant image of a smoothing filter?
+a) Image with high sharp transitions in gray levels
+b) Image with reduced sharp transitions in gray levels
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+5. At which of the following scenarios averaging filters is/are used?
+a) In the reduction of irrelevant details in an image
+b) For smoothing of false contours
+c) For noise reductions
+d) All of the mentioned
+d
+
+
+6. A spatial averaging filter having all the coefficients equal is termed _________
+a) A box filter
+b) A weighted average filter
+c) A standard average filter
+d) A median filter
+a
+
+
+7. What does using a mask having central coefficient maximum and then the coefficients reducing as a function of increasing distance from origin results?
+a) It results in increasing blurring in smoothing process
+b) It results to reduce blurring in smoothing process
+c) Nothing with blurring occurs as mask coefficient relation has no effect on smoothing process
+d) None of the mentioned
+a
+
+
+8. What is the relation between blurring effect with change in filter size?
+a) Blurring increases with decrease of the size of filter size
+b) Blurring decrease with decrease of the size of filter size
+c) Blurring decrease with increase of the size of filter size
+d) Blurring increases with increase of the size of filter size
+d
+
+
+1. Which of the following filter(s) has the response in which the central pixel value is replaced by value defined by ranking the pixel in the image encompassed by filter?
+a) Order-Statistic filters
+b) Non-linear spatial filters
+c) Median filter
+d) All of the mentioned
+d
+
+
+2. Is it true or false that "the original pixel value is included while computing the median using gray-levels in the neighborhood of the original pixel in median filter case"?
+a) True
+b) False
+a
+
+
+3. Two filters of similar size are used for smoothing image having impulse noise. One is median filter while the other is a linear spatial filter. Which would the blurring effect of both?
+a) Median filter effects in considerably less blurring than the linear spatial filters
+b) Median filter effects in considerably more blurring than the linear spatial filters
+c) Both have the same blurring effect
+d) All of the mentioned
+a
+
+
+4. An image contains noise having appearance as black and white dots superimposed on the image. Which of the following noise(s) has the same appearance?
+a) Salt-and-pepper noise
+b) Gaussian noise
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+5. While performing the median filtering, suppose a 3*3 neighborhood has value (10, 20, 20, 20, 15, 20, 20, 25, 100), then what is the median value to be given to the pixel under filter?
+a) 15
+b) 20
+c) 100
+d) 25
+b
+
+
+6. Which of the following are forced to the median intensity of the neighbors by n*n median filter?
+a) Isolated cluster of pixels that are light or dark in comparison to their neighbors
+b) Isolated cluster of pixels whose area is less than one-half the filter area
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+7. Which filter(s) used to find the brightest point in the image?
+a) Median filter
+b) Max filter
+c) Mean filter
+d) All of the mentioned
+b
+
+
+8. The median filter also represents which of the following ranked set of numbers?
+a) 100th percentile
+b) 0th percentile
+c) 50th percentile
+d) None of the mentioned
+c
+
+
+9. Which of the following filter represents a 0th percentile set of numbers?
+a) Max filter
+b) Mean filter
+c) Median filter
+d) None of the mentioned
+d
+
+
+1. In neighborhood operations working is being done with the value of image pixel in the neighborhood and the corresponding value of a subimage that has same dimension as neighborhood. The subimage is referred as _________
+a) Filter
+b) Mask
+c) Template
+d) All of the mentioned
+d
+
+
+2. The response for linear spatial filtering is given by the relationship __________
+a) Sum of filter coefficient's product and corresponding image pixel under filter mask
+b) Difference of filter coefficient's product and corresponding image pixel under filter mask
+c) Product of filter coefficient's product and corresponding image pixel under filter mask
+d) None of the mentioned
+a
+
+
+3. In linear spatial filtering, what is the pixel of the image under mask corresponding to the mask coefficient w (1, -1), assuming a 3*3 mask?
+a) f (x, -y)
+b) f (x + 1, y)
+c) f (x, y - 1)
+d) f (x + 1, y - 1)
+d
+
+
+4. Which of the following is/are a nonlinear operation?
+a) Computation of variance
+b) Computation of median
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+5. Which of the following is/are used as basic function in nonlinear filter for noise reduction?
+a) Computation of variance
+b) Computation of median
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+6. In neighborhood operation for spatial filtering if a square mask of size n*n is used it is restricted that the center of mask must be at a distance ≥ (n - 1)/2 pixels from border of image, what happens to the resultant image?
+a) The resultant image will be of same size as original image
+b) The resultant image will be a little larger size than original image
+c) The resultant image will be a little smaller size than original image
+d) None of the mentioned
+c
+
+
+7. Which of the following method is/are used for padding the image?
+a) Adding rows and column of 0 or other constant gray level
+b) Simply replicating the rows or columns
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+8. In neighborhood operation for spatial filtering using square mask of n*n, which of the following approach is/are used to obtain a perfectly filtered result irrespective of the size?
+a) By padding the image
+b) By filtering all the pixels only with the mask section that is fully contained in the image
+c) By ensuring that center of mask must be at a distance ≥ (n - 1)/2 pixels from border of image
+d) None of the mentioned
+c
+
+
+1. Which of the following fact(s) is/are true for the relationship between low frequency component of Fourier transform and the rate of change of gray levels?
+a) Moving away from the origin of transform the low frequency corresponds to smooth gray level variation
+b) Moving away from the origin of transform the low frequencies corresponds to abrupt change in gray level
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+2. Which of the following fact(s) is/are true for the relationship between high frequency component of Fourier transform and the rate of change of gray levels?
+a) Moving away from the origin of transform the high frequency corresponds to smooth gray level variation
+b) Moving away from the origin of transform the higher frequencies corresponds to abrupt change in gray level
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+3. What is the name of the filter that multiplies two functions F(u, v) and H(u, v), where F has complex components too since is Fourier transformed function of f(x, y), in an order that each component of H multiplies both real and complex part of corresponding component in F?
+a) Unsharp mask filter
+b) High-boost filter
+c) Zero-phase-shift-filter
+d) None of the mentioned
+c
+
+
+4. To set the average value of an image zero, which of the following term would be set 0 in the frequency domain and the inverse transformation is done, where F(u, v) is Fourier transformed function of f(x, y)?
+a) F(0, 0)
+b) F(0, 1)
+c) F(1, 0)
+d) None of the mentioned
+a
+
+
+5. What is the name of the filter that is used to turn the average value of a processed image zero?
+a) Unsharp mask filter
+b) Notch filter
+c) Zero-phase-shift-filter
+d) None of the mentioned
+b
+
+
+6. Which of the following filter(s) attenuates high frequency while passing low frequencies of an image?
+a) Unsharp mask filter
+b) Lowpass filter
+c) Zero-phase-shift filter
+d) All of the mentioned
+b
+
+
+7. Which of the following filter(s) attenuates low frequency while passing high frequencies of an image?
+a) Unsharp mask filter
+b) Highpass filter
+c) Zero-phase-shift filter
+d) All of the mentioned
+b
+
+
+8. Which of the following filter have a less sharp detail than the original image because of attenuation of high frequencies?
+a) Highpass filter
+b) Lowpass filter
+c) Zero-phase-shift filter
+d) None of the mentioned
+b
+
+
+9. The feature(s) of a highpass filtered image is/are ___________
+a) Have less gray-level variation in smooth areas
+b) Emphasized transitional gray-level details
+c) An overall sharper image
+d) All of the mentioned
+d
+
+
+10. A spatial domain filter of the corresponding filter in frequency domain can be obtained by applying which of the following operation(s) on filter in frequency domain?
+a) Fourier transform
+b) Inverse Fourier transform
+c) None of the mentioned
+d) All of the mentioned
+b
+
+
+11. A frequency domain filter of the corresponding filter in spatial domain can be obtained by applying which of the following operation(s) on filter in spatial domain?
+a) Fourier transform
+b) Inverse Fourier transform
+c) None of the mentioned
+d) All of the mentioned
+a
+
+
+12. Which of the following filtering is done in frequency domain in correspondence to lowpass filtering in spatial domain?
+a) Gaussian filtering
+b) Unsharp mask filtering
+c) High-boost filtering
+d) None of the mentioned
+a
+
+
+13. Using the feature of reciprocal relationship of filter in spatial domain and corresponding filter in frequency domain, which of the following fact is true?
+a) The narrower the frequency domain filter results in increased blurring
+b) The wider the frequency domain filter results in increased blurring
+c) The narrower the frequency domain filter results in decreased blurring
+d) None of the mentioned
+a
+
+
+1. Smoothing in frequency domain is achieved by attenuating which of the following component in the transform of a given image?
+a) Attenuating a range of high-frequency components
+b) Attenuating a range of low-frequency components
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+2. Which of the following is/are considered as type(s) of lowpass filters?
+a) Ideal
+b) Butterworth
+c) Gaussian
+d) All of the mentioned
+d
+
+
+3. Which of the following lowpass filters is/are covers the range of very sharp filter function?
+a) Ideal lowpass filters
+b) Butterworth lowpass filter
+c) Gaussian lowpass filter
+d) All of the mentioned
+a
+
+
+4. Which of the following lowpass filters is/are covers the range of very smooth filter function?
+a) Ideal lowpass filters
+b) Butterworth lowpass filter
+c) Gaussian lowpass filter
+d) All of the mentioned
+a
+
+
+5. Butterworth lowpass filter has a parameter, filter order, determining its functionality as very sharp or very smooth filter function or an intermediate filter function. If the parameter value is very high, the filter approaches to which of the following filter(s)?
+a) Ideal lowpass filter
+b) Gaussian lowpass filter
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+6. Butterworth lowpass filter has a parameter, filter order, determining its functionality as very sharp or very smooth filter function or an intermediate filter function. If the parameter value is of lower order, the filter approaches to which of the following filter(s)?
+a) Ideal lowpass filter
+b) Gaussian lowpass filter
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+7. In a filter, all the frequencies inside a circle of radius D0 are not attenuated while all frequencies outside circle are completely attenuated. The D0 is the specified nonnegative distance from origin of the Fourier transform. Which of the following filter(s) characterizes the same?
+a) Ideal filter
+b) Butterworth filter
+c) Gaussian filter
+d) All of the mentioned
+a
+
+
+8. In an ideal lowpass filter case, what is the relation between the filter radius and the blurring effect caused because of the filter?
+a) Filter size is directly proportional to blurring caused because of filter
+b) Filter size is inversely proportional to blurring caused because of filter
+c) There is no relation between filter size and blurring caused because of it
+d) None of the mentioned
+b
+
+
+9. The characteristics of the lowpass filter h(x, y) is/are_________
+a) Has a dominant component at origin
+b) Has a concentric, circular components about the center component
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+10. What is the relation for the components of ideal lowpass filter and the image enhancement?
+a) The concentric component is primarily responsible for blurring
+b) The center component is primarily for the ringing characteristic of ideal filter
+c) All of the mentioned
+d) None of the mentioned
+d
+
+
+11. Using the feature of reciprocal relationship of filter in spatial domain and corresponding filter in frequency domain along with convolution, which of the following fact is true?
+a) The narrower the frequency domain filter more severe is the ringing
+b) The wider the frequency domain filter more severe is the ringing
+c) The narrower the frequency domain filter less severe is the ringing
+d) None of the mentioned
+a
+
+
+12. Which of the following defines the expression for BLPF H(u, v) of order n, where D(u, v) is the distance from point (u, v), D0 is the distance defining cutoff frequency?
+a) H(u,v) = 1/ 1 + [D0 / D(u,v)]^2n
+b) H(u,v) = {0 if D(u,v) <= D0 and 1 if D(u,v) > D0}
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+13. Which of the following defines the expression for ILPF H(u, v) of order n, where D(u, v) is the distance from point (u, v), D0 is the distance defining cutoff frequency?
+a) H(u,v) = 1/ 1 + [D0 / D(u,v)]^2n
+b) H(u,v) = {0 if D(u,v) <= D0 and 1 if D(u,v) > D0}
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+14. State the statement true or false: "BLPF has sharp discontinuity and ILPF doesn't, and so ILPF establishes a clear cutoff b/w passed and filtered frequencies".
+a) True
+b) False
+b
+
+
+15. A Butterworth filter of what order has no ringing?
+a) 1
+b) 2
+c) 3
+d) 4
+a
+
+
+1. In frequency domain terminology, which of the following is defined as "obtaining a highpass filtered image by subtracting from the given image a lowpass filtered version of itself"?
+a) Emphasis filtering
+b) Unsharp masking
+c) Butterworth filtering
+d) None of the mentioned
+b
+
+
+2. Which of the following is/ are a generalized form of unsharp masking?
+a) Lowpass filtering
+b) High-boost filtering
+c) Emphasis filtering
+d) All of the mentioned
+b
+
+
+3. High boost filtered image is expressed as: f
+hb= A f(x, y) - flp(x, y), where f(x, y) the input image, A is a constant and flp(x, y) is the lowpass filtered version of f(x, y). Which of the following fact validates if A=1?
+a) High-boost filtering reduces to regular Highpass filtering
+b) High-boost filtering reduces to regular Lowpass filtering
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+4. High boost filtered image is expressed as: f
+hb= A f(x, y) - flp(x, y), where f(x, y) the input image, A is a constant and flp(x, y) is the lowpass filtered version of f(x, y). Which of the following fact(s) validates if A increases past 1?
+a) The contribution of the image itself becomes more dominant
+b) The contribution of the highpass filtered version of image becomes less dominant
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+5. If, Fhp(u, v)=F(u, v) - Flp(u, v) and Flp(u, v) = Hlp(u, v)F(u, v), where F(u, v) is the image in frequency domain with Fhp(u, v) its highpass filtered version, Flp(u, v) its lowpass filtered component and Hlp
+(u, v) the transfer function of a lowpass filter. Then, unsharp masking can be implemented directly in frequency domain by using a filter. Which of the following is the required filter?
+a) Hhp(u, v) = Hlp(u, v)
+b) Hhp(u, v) = 1 + Hlp(u, v)
+c) Hhp(u, v) = - Hlp(u, v)
+d) Hhp(u, v) = 1 - Hlp(u, v)
+d
+
+
+6. Unsharp masking can be implemented directly in frequency domain by using a filter: Hhp(u, v) = 1 - Hlp(u, v), where Hlp
+(u, v) the transfer function of a lowpass filter. What kind of filter is Hhp(u, v)?
+a) Composite filter
+b) M-derived filter
+c) Constant k filter
+d) None of the mentioned
+a
+
+
+7. If unsharp masking can be implemented directly in frequency domain by using a composite filter: Hhp(u, v) = 1 - Hlp(u, v), where
+Hlp(u, v) the transfer function of a lowpass filter. Then, the composite filter for High-boost filtering is __________
+a) Hhb(u, v) = 1 - Hhp(u, v)
+b) Hhb(u, v) = 1 + Hhp(u, v)
+c) Hhb(u, v) = (A-1) - Hhp(u, v), A is a constant
+d) Hhb(u, v) = (A-1) + Hhp(u, v), A is a constant
+d
+
+
+8. The frequency domain Laplacian is closer to which of the following mask?
+a) Mask that excludes the diagonal neighbors
+b) Mask that excludes neighbors in 4-adjacancy
+c) Mask that excludes neighbors in 8-adjacancy
+d) None of the mentioned
+a
+
+
+9. To accentuate the contribution to enhancement made by high-frequency components, which of the following method(s) should be more appropriate to apply?
+a) Multiply the highpass filter by a constant
+b) Add an offset to the highpass filter to prevent eliminating zero frequency term by filter
+c) All of the mentioned combined and applied
+d) None of the mentioned
+c
+
+
+10. A process that accentuate the contribution to enhancement made by high-frequency components, by multiplying the highpass filter by a constant and adding an offset to the highpass filter to prevent eliminating zero frequency term by filter is known as _______
+a) Unsharp masking
+b) High-boost filtering
+c) High frequency emphasis
+d) None of the mentioned
+c
+
+
+11. Which of the following a transfer function of High frequency emphasis {Hhfe(u, v)} for Hhp(u, v) being the highpass filtered version of image?
+a) Hhfe(u, v) = 1 - Hhp(u, v)
+b) Hhfe(u, v) = a - Hhp(u, v), a≥0
+c) Hhfe(u, v) = 1 - b Hhp(u, v), a≥0 and b>a
+d) Hhfe(u, v) = a + b Hhp(u, v), a≥0 and b>a
+d
+
+
+12. The transfer function of High frequency emphasis is given as: H
+hfe(u, v) = a + b Hhp(u, v), for Hhp(u, v) being the highpass filtered version of image,a≥0 and b>a. for certain values of a and b it reduces to High-boost filtering. Which of the following is the required value?
+a) a = (A-1) and b = 0,A is some constant
+b) a = 0 and b = (A-1),A is some constant
+c) a = 1 and b = 1
+d) a = (A-1) and b =1,A is some constant
+d
+
+
+13. The transfer function of High frequency emphasis is given as: H
+hfe(u, v) = a + b Hhp(u, v), for Hhp(u, v) being the highpass filtered version of image,a≥0 and b>a. What happens when b increases past 1?
+a) The high frequency are emphasized
+b) The low frequency are emphasized
+c) All frequency are emphasized
+d) None of the mentioned
+a
+
+
+14. The transfer function of High frequency emphasis is given as: H
+hfe(u, v) = a + b Hhp(u, v), for Hhp(u, v) being the highpass filtered version of image,a≥0 and b>a. When b increases past 1 the filtering process is specifically termed as__________
+a) Unsharp masking
+b) High-boost filtering
+c) Emphasized filtering
+d) None of the mentioned
+c
+
+
+15. Validate the statement "Because of High frequency emphasis the gray-level tonality due to low frequency components is not lost".
+a) True
+b) False
+a
+
+
+1. Which of the following fact is true for a image?
+a) An image is the addition of illumination and reflectance component
+b) An image is the subtraction of illumination component from reflectance component
+c) An image is the subtraction of reflectance component from illumination component
+d) An image is the multiplication of illumination and reflectance component
+d
+
+
+2. If an image is expressed as the multiplication of illumination and reflectance component i.e. f(x, y)= i(x, y) r(x, y), then Validate the statement "We can directly use the equation f(x, y)= i(x, y) r(x, y) to operate separately on the frequency component of illumination and reflectance" .
+a) True
+b) False
+b
+
+
+3. In Homomorphic filtering which of the following operations is used to convert input image to discrete Fourier transformed function?
+a) Logarithmic operation
+b) Exponential operation
+c) Negative transformation
+d) None of the mentioned
+a
+
+
+4. A class of system that achieves the separation of illumination and reflectance component of an image is termed as __________
+a) Base class system
+b) Homomorphic system
+c) Base separation system
+d) All of the mentioned
+b
+
+
+5. Which of the following image component is characterized by a slow spatial variation?
+a) Illumination component
+b) Reflectance component
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+6. Which of the following image component varies abruptly particularly at the junction of dissimilar objects?
+a) Illumination component
+b) Reflectance component
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+7. The reflectance component of an image varies abruptly particularly at the junction of dissimilar objects. The characteristic lead to associate illumination with __________
+a) The low frequency of Fourier transform of logarithm of the image
+b) The high frequency of Fourier transform of logarithm of the image
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+8. The illumination component of an image is characterized by a slow spatial variation. The characteristic lead to associate illumination with __________
+a) The low frequency of Fourier transform of logarithm of the image
+b) The high frequency of Fourier transform of logarithm of the image
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+9. If the contribution made by illumination component of image is decreased and the contribution of reflectance component is amplified, what will be the net result?
+a) Dynamic range compression
+b) Contrast enhancement
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+1. How is negative of an image obtained with intensity levels [0,L-1] with "r" and "s" being pixel values?
+a) s = L - 1 + r
+b) s = L - 1 - r
+c) s = L + 1 + r
+d) s = L + 1 + r
+b
+
+
+2. The general form of log transformations is ____________________
+a) s = c.log(1 + r)
+b) s = c+log(1 + r)
+c) s = c.log(1 - r)
+d) s = c-log(1 - r)
+a
+
+
+3. Power-law transformations has the basic form of ________________ where c and ∆ are constants.
+a) s = c + r∆
+b) s = c - r∆
+c) s = c * r∆
+d) s = c / r.∆
+c
+
+
+4. For what value of the output must the Power-law transformation account for offset?
+a) No offset needed
+b) All values
+c) One
+d) Zero
+d
+
+
+5. What is Gamma Correction?
+a) A Power-law response phenomenon
+b) Inverted Intensity curve
+c) Light brightness variation
+d) None of the Mentioned
+a
+
+
+6. Which process expands the range of intensity levels in an image so that it spans the full intensity range of the display?
+a) Shading correction
+b) Contrast sketching
+c) Gamma correction
+d) None of the Mentioned
+b
+
+
+7. Highlighting a specific range of intensities of an image is called _______________
+a) Intensity Matching
+b) Intensity Highlighting
+c) Intensity Slicing
+d) None of the Mentioned
+c
+
+
+8. Highlighting the contribution made to total image by specific bits instead of highlighting intensity-level changes is called ____________________
+a) Intensity Highlighting
+b) Byte-Slicing
+c) Bit-plane slicing
+d) None of the Mentioned
+c
+
+
+9. Which of the following involves reversing the intensity levels of an image?
+a) Log Transformations
+b) Piecewise Linear Transformations
+c) Image Negatives
+d) None of the Mentioned
+c
+
+
+10. Piecewise Linear Transformation function involves which of the following?
+a) Bit-plane slicing
+b) Intensity level slicing
+c) Contrast stretching
+d) All of the Mentioned
+d
+
+
+1. What is the set generated using infinite-value membership functions, called?
+a) Crisp set
+b) Boolean set
+c) Fuzzy set
+d) All of the mentioned
+c
+
+
+2. Which is the set, whose membership only can be true or false, in bi-values Boolean logic?
+a) Boolean set
+b) Crisp set
+c) Null set
+d) None of the mentioned
+b
+
+
+3. If Z is a set of elements with a generic element z, i.e. Z = {z}, then this set is called _____________
+a) Universe set
+b) Universe of discourse
+c) Derived set
+d) None of the mentioned
+b
+
+
+4. A fuzzy set 'A' in Z is characterized by a ____________ that associates with element of Z, a real number in the interval [0, 1].
+a) Grade of membership
+b) Generic element
+c) Membership function
+d) None of the mentioned
+c
+
+
+5. A fuzzy set is ________ if and only if membership function is identically zero in Z.
+a) Empty
+b) Subset
+c) Complement
+d) None of the mentioned
+a
+
+
+6. Which of the following is a type of Membership function?
+a) Triangular
+b) Trapezoidal
+c) Sigma
+d) All of the mentioned
+d
+
+
+7. Which of the following is not a type of Membership function?
+a) S-shape
+b) Bell shape
+c) Truncated Gaussian
+d) None of the mentioned
+d
+
+
+8. Using IF-THEN rule to create the output of fuzzy system is called _______________.
+a) Inference
+b) Implication
+c) Both the mentioned
+d) None of the mentioned
+c
+
+
+9. What is the independent variable of fuzzy output?
+a) Maturity
+b) Membership
+c) Generic Element
+d) None of the mentioned
+a
+
+
+10. Which of the following is not a principle step in fuzzy technique?
+a) Fuzzify input
+b) Apply implication method
+c) Defuzzify final output
+d) None of the mentioned
+d
+
+
+1. Which gray-level transformation increase the dynamic range of gray-level in the image?
+a) Power-law transformations
+b) Negative transformations
+c) Contrast stretching
+d) None of the mentioned
+c
+
+
+2. When is the contrast stretching transformation a linear function, for r and s as gray-value of image before and after processing respectively?
+a) r1= s1 and r2= s2
+b) r1= r2, s1= 0 and s2= L - 1, L is the max gray value allowed
+c) r1= 1 and r2= 0
+d) None of the mentioned
+a
+
+
+3. When is the contrast stretching transformation a thresholding function, for r and s as gray-value of image before and after processing respectively?
+a) r1= s1 and r2= s2
+b) r1= r2, s1= 0 and s2= L - 1, L is the max gray value allowed
+c) r1= 1 and r2= 0
+d) None of the mentioned
+b
+
+
+4. What condition prevents the intensity artifacts to be created while processing with contrast stretching, if r and s are gray-values of image before and after processing respectively?
+a) r1= s1 and r2= s2
+b) r1= r2, s1= 0 and s2= L - 1, L is the max gray value allowed
+c) r1= 1 and r2= 0
+d) r1≤ r2 and s1≤ s2
+d
+
+
+5. A contrast stretching result been obtained by setting (r1, s1) = (rmin, 0) and (r2, s2) = (rmax, L - 1), where, r and s are gray-values of image before and after processing respectively, L is the max gray value allowed and rmax and rmin are maximum and minimum gray-values in image respectively. What should we term the transformation function if r1= r2= m, some mean gray-value.
+a) Linear function
+b) Thresholding function
+c) Intermediate function
+d) None of the mentioned
+b
+
+
+6. A specific range of gray-levels highlighting is the basic idea of __________
+a) Contrast stretching
+b) Bit -plane slicing
+c) Thresholding
+d) Gray-level slicing
+d
+
+
+7. What is/are the approach(s) of the gray-level slicing?
+a) To give all gray level of a specific range high value and a low value to all other gray levels
+b) To brighten the pixels gray-value of interest and preserve the background
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+8. Which of the following transform produces a binary image after processing?
+a) Contrast stretching
+b) Gray-level slicing
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+9. Specific bit contribution in the image highlighting is the basic idea of __________
+a) Contrast stretching
+b) Bit -plane slicing
+c) Thresholding
+d) Gray-level slicing
+b
+
+
+10. In bit-plane slicing if an image is represented by 8 bits and is composed of eight 1-bit plane, with plane 0 showing least significant bit and plane 7 showing most significant bit. Then, which plane(s) contain the majority of visually significant data.
+a) Plane 4, 5, 6, 7
+b) Plane 0, 1, 2, 3
+c) Plane 0
+d) Plane 2, 3, 4, 5
+a
+
+
+11. Which of the following helps to obtain the number of bits to be used to quantize each pixel.
+a) Gray-level slicing
+b) Contrast stretching
+c) Contouring
+d) Bit-plane slicing
+d
+
+
+1. If the Gaussian filter is expressed as H(u, v) = e(-D2(u,v)/2D02),where D(u, v) is the distance from point(u, v), D0
+is the distance defining cutoff frequency, then for what value of D(u, v) the filter is down to 0.607 of its maximum value?
+a) D(u, v) = D0
+b) D(u, v) = D0^2
+c) D(u, v) = D0^3
+d) D(u, v) = 0
+a
+
+
+2. State the statement as true or false. "The GLPF did produce as much smoothing as the BLPF of order 2 for the same value of cutoff frequency".
+a) True
+b) False
+b
+
+
+3. In general, which of the following assures of no ringing in the output?
+a) Gaussian Lowpass Filter
+b) Ideal Lowpass Filter
+c) Butterworth Lowpass Filter
+d) All of the mentioned
+a
+
+
+4. The lowpass filtering process can be applied in which of the following area(s)?
+a) The field of machine perception, with application of character recognition
+b) In field of printing and publishing industry
+c) In field of processing satellite and aerial images
+d) All of the mentioned
+d
+
+
+5. The edges and other abrupt changes in gray-level of an image are associated with_________
+a) High frequency components
+b) Low frequency components
+c) Edges with high frequency and other abrupt changes in gray-level with low frequency components
+d) Edges with low frequency and other abrupt changes in gray-level with high frequency components
+a
+
+
+6. A type of Image is called as VHRR image. What is the definition of VHRR image?
+a) Very High Range Resolution image
+b) Very High Resolution Range image
+c) Very High Resolution Radiometer image
+d) Very High Range Radiometer Image
+c
+
+
+7. The Image sharpening in frequency domain can be achieved by which of the following method(s)?
+a) Attenuating the high frequency components
+b) Attenuating the low-frequency components
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+8. The function of filters in Image sharpening in frequency domain is to perform reverse operation of which of the following Lowpass filter?
+a) Gaussian Lowpass filter
+b) Butterworth Lowpass filter
+c) Ideal Lowpass filter
+d) None of the Mentioned
+c
+
+
+9. If D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v). Then what value does an Ideal Highpass filter will give if D(u, v) ≤ D0 and if D(u, v) >D0?
+a) 0 and 1 respectively
+b) 1 and 0 respectively
+c) 1 in both case
+d) 0 in both case
+a
+
+
+10. What is the relation of the frequencies to a circle of radius D0, where D0 is the cutoff distance measured from origin of frequency rectangle, for an Ideal Highpass filter?
+a) IHPF sets all frequencies inside circle to zero
+b) IHPF allows all frequencies, without attenuating, outside the circle
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+11. Which of the following is the transfer function of the Butterworth Highpass Filter, of order n, D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v)?
+a) H(u,v) = 1/ 1 + [D0 / D(u,v)]^2n
+b) H(u,v) = {0 if D(u,v) <= D0 and 1 if D(u,v) > D0}
+c) H(u,v) = 1 - e^{-D^2(u,v)/2D0^2}
+d) none of the mentioned
+a
+
+
+12. Which of the following is the transfer function of the Ideal Highpass Filter? Given D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v).
+a) H(u,v) = 1/ 1 + [D0 / D(u,v)]^2n
+b) H(u,v) = {0 if D(u,v) <= D0 and 1 if D(u,v) > D0}
+c) H(u,v) = 1 - e^{-D^2(u,v)/2D0^2}
+d) none of the mentioned
+b
+
+
+13. Which of the following is the transfer function of the Gaussian Highpass Filter? Given D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v).
+a) H(u,v) = 1/ 1 + [D0 / D(u,v)]^2n
+b) H(u,v) = {0 if D(u,v) <= D0 and 1 if D(u,v) > D0}
+c) H(u,v) = 1 - e^{-D^2(u,v)/2D0^2}
+d) none of the mentioned
+c
+
+
+14. For a given image having smaller objects, which of the following filter(s), having D0 as the cutoff distance measured from origin of frequency rectangle, would you prefer for a comparably smoother result?
+a) IHLF with D015
+b) BHPF with D015 and order 2
+c) GHPF with D015 and order 2
+d) All of the mentioned
+c
+
+
+15. Which of the following statement(s) is true for the given fact that "Applying Highpass filters has an effect on the background of the output image"?
+a) The average background intensity increases to near white
+b) The average background intensity reduces to near black
+c) The average background intensity changes to a value average of black and white
+d) All of the mentioned
+b
+
+
+1. Which of the following is a receptor in the retina of human eye?
+a) Rods
+b) Cones
+c) Rods and Cones
+d) Neither Rods nor Cones
+c
+
+
+2. How is image formation in the eye different from that in a photographic camera
+a) No difference
+b) Variable focal length
+c) Varying distance between lens and imaging plane
+d) Fixed focal length
+b
+
+
+3. Range of light intensity levels to which the human eye can adapt (in Log of Intensity-mL)
+a) 10^-6 to 10^-4
+b) 10^4 to 10^6
+c) 10^-6 to 10^4
+d) 10^-5 to 10^5
+c
+
+
+4. What is subjective brightness?
+a) Related to intensity
+b) Related to brightness
+c) Related to image perception
+d) Related to image formation
+a
+
+
+5. What is brightness adaptation?
+a) Changing the eye's overall sensitivity
+b) Changing the eye's imaging ability
+c) Adjusting the focal length
+d) Transition from scotopic to photopic vision
+a
+
+
+6. The inner most membrane of the human eye is
+a) Blind Spot
+b) Sclera
+c) Choroid
+d) Retina
+d
+
+
+7. What is the function of Iris?
+a) Source of nutrition
+b) Detect color
+c) Varies focal length
+d) Control amount of light
+d
+
+
+8. ________ serve to a general, overall picture of the field of view.
+a) Cones
+b) Rods
+c) Retina
+d) All of the Mentioned
+b
+
+
+9. Ratio of number of rods to the number of cones is _______
+a) 1:20
+b) 1:2
+c) 1:1
+d) 1:5
+a
+
+
+10. The absence of receptors is in the retinal area called _____________
+a) Lens
+b) Ciliary body
+c) Blind spot
+d) Fovea
+c
+
+
+1. In 4-neighbours of a pixel p, how far are each of the neighbours located from p?
+a) one pixel apart
+b) four pixels apart
+c) alternating pixels
+d) none of the Mentioned
+a
+
+
+2. If S is a subset of pixels, pixels p and q are said to be ____________ if there exists a path between them consisting of pixels entirely in S.
+a) continuous
+b) ambiguous
+c) connected
+d) none of the Mentioned
+c
+
+
+3. If R is a subset of pixels, we call R a _________ of the image if R is a connected set.
+a) Disjoint
+b) Region
+c) Closed
+d) Adjacent
+b
+
+
+4. Two regions are said to be ___________ if their union forms a connected set.
+a) Adjacent
+b) Disjoint
+c) Closed
+d) None of the Mentioned
+a
+
+
+5. If an image contains K disjoint regions, what does the union of all the regions represent?
+a) Background
+b) Foreground
+c) Outer Border
+d) Inner Border
+b
+
+
+6. For a region R, the set of points that are adjacent to the complement of R is called as ________
+a) Boundary
+b) Border
+c) Contour
+d) All of the Mentioned
+d
+
+
+7. The distance between pixels p and q, the pixels have a distance less than or equal to some value of radius r centred at (x,y) is called :
+a) Euclidean distance
+b) City-Block distance
+c) Chessboard distance
+d) None of the Mentioned
+a
+
+
+8. The distance between pixels p and q, the pixels have a distance less than or equal to some value of radius r, form a diamond centred at (x,y) is called :
+a) Euclidean distance
+b) Chessboard distance
+c) City-Block distance
+d) None of the Mentioned
+c
+
+
+9. The distance between pixels p and q, the pixels have a distance less than or equal to some value of radius r, form a square centred at (x,y) is called :
+a) Euclidean distance
+b) Chessboard distance
+c) City-Block distance
+d) None of the Mentioned
+b
+
+
+10. Which of the following is NOT is not a type of Adjacency?
+a) 4-Adjacency
+b) 8-Adjacency
+c) m-Adjacency
+d) None of the Mentioned
+d
+
+
+1. How many categories does the color image processing is basically divided into?
+a) 4
+b) 2
+c) 3
+d) 5
+b
+
+
+2. What are the names of categories of color image processing?
+a) Full-color and pseudo-color processing
+b) Half-color and full-color processing
+c) Half-color and pseudo-color processing
+d) Pseudo-color and Multi-color processing
+a
+
+
+3. What are the basic quantities that are used to describe the quality of a chromatic light source?
+a) Radiance, brightness and wavelength
+b) Brightness and luminence
+c) Radiance, brightness and luminence
+d) Luminence and radiance
+c
+
+
+4. What is the quantity that is used to measure the total amount of energy flowing from the light source?
+a) Brightness
+b) Intensity
+c) Luminence
+d) Radiance
+d
+
+
+5. What are the characteristics that are used to distinguish one color from the other?
+a) Brightness, Hue and Saturation
+b) Hue, Brightness and Intensity
+c) Saturation, Hue
+d) Brightness, Saturation and Intensity
+a
+
+
+6. What are the characteristics that are taken together in chromaticity?
+a) Saturation and Brightness
+b) Hue and Saturation
+c) Hue and Brightness
+d) Saturation, Hue and Brightness
+b
+
+
+7. Which of the following represent the correct equations for trichromatic coefficients?
+a) x=X/(X+Y+Z), y=Y/(X+Y+Z), z=Z/(X+Y+Z)
+b) x=(Y+Z)/(X+Y+Z), y=(X+Z)/(X+Y+Z), z=(X+Y)/(X+Y+Z)
+c) x=X/(X-Y+Z), y=Y/(X-Y+Z), z=Z/(X-Y+Z)
+d) x=(-X)/(X+Y+Z), y=(-Y)/(X+Y+Z), z=(-Z)/(X+Y+Z)
+a
+
+
+8. What do you mean by tri-stimulus values?
+a) It is the amount of red, green and yellow needed to form any particular color
+b) It is the amount of red, green and indigo needed to form any particular color
+c) It is the amount of red, yellow and blue needed to form any particular color
+d) It is the amount of red, green and blue needed to form any particular color
+d
+
+
+9. What is the value obtained by the sum of the three trichromatic coefficients?
+a) 0
+b)-1
+c) 1
+d) Null
+c
+
+
+10. What is the name of area of the triangle in C.I E chromatic diagram that shows a typical range of colors produced by RGB monitors?
+a) Color gamut
+b) Tricolor
+c) Color game
+d) Chromatic colors
+a
+
+
+1. Color model is also named as (another name):
+a) Color space
+b) Color gap
+c) Color space & color system
+d) Color system
+c
+
+
+2. What do you mean by the term pixel depth?
+a) It is the number of bits used to represent each pixel in RGB space
+b) It is the number of bytes used to represent each pixel in RGB space
+c) It is the number of units used to represent each pixel in RGB space
+d) It is the number of mm used to represent each pixel in RGB space
+a
+
+
+3. How many bit RGB color image is represented by full-color image?
+a) 32-bit RGB color image
+b) 24-bit RGB color image
+c) 16-bit RGB color image
+d) 8-bit RGB color image
+b
+
+
+4. What is the equation used to obtain S component of each RGB pixel in RGB color format?
+a) S=1+3/(R+G+B) [min⁡(R,G,B)].
+b) S=1+3/(R+G+B) [max⁡(R,G,B)].
+c) S=1-3/(R+G+B) [max⁡(R,G,B)].
+d) S=1-3/(R+G+B) [min⁡(R,G,B)].
+d
+
+
+5. What is the equation used to obtain I(Intensity) component of each RGB pixel in RGB color format?
+a) I=1/2(R+G+B)
+b) I=1/3(R+G+B)
+c) I=1/3(R-G-B)
+d) I=1/3(R-G+B)
+b
+
+
+6. What is the equation used for obtaining R value in terms of HSI components?
+a) R=I[1-(S cos⁡H)/cos⁡(60°-H) ].
+b) R=I[1+(S cos⁡H)/cos(120°-H)].
+c) R=I[1+(S cos⁡H)/cos⁡(60°-H) ].
+d) R=I[1+(S cos⁡H)/cos(30°-H) ].
+c
+
+
+7. What is the equation used for calculating B value in terms of HSI components?
+a) B=I(1+S)
+b) B=S(1-I)
+c) B=S(1+I)
+d) B=I(1-S)
+d
+
+
+8. What is the equation used for calculating G value in terms of HSI components?
+a) G=3I-(R+B)
+b) G=3I+(R+B)
+c) G=3I-(R-B)
+d) G=2I-(R+B)
+a
+
+
+9. Which of the following color models are used for color printing?
+a) RGB
+b) CMY
+c) CMYK
+d) CMY and CMYK
+d
+
+
+1. What does the total number of pixels in the region defines?
+a) Perimeter
+b) Area
+c) Intensity
+d) Brightness
+b
+
+
+2. What is the unit of compactness of a region?
+a) Meter
+b) Meter2
+c) No units
+d) Meter-1
+c
+
+
+3. For which of the following regions, compactness is minimal?
+a) Rectangle
+b) Square
+c) Irregular
+d) Disk
+d
+
+
+4. Compactness is insensitive to orientation.
+a) True
+b) False
+a
+
+
+5. Which of the following measures are not used to describe a region?
+a) Mean and median of grey values
+b) Minimum and maximum of grey values
+c) Number of pixels alone
+d) Number of pixels above and below mean
+c
+
+
+6. We cannot use normalized area as one of the region descriptor.
+a) True
+b) False
+b
+
+
+7. What is the study of properties of a figure that are unaffected by any deformation?
+a) Topology
+b) Geography
+c) Statistics
+d) Deformation
+a
+
+
+8. On which of the following operation of an image, the topology of the region changes?
+a) Stretching
+b) Rotation
+c) Folding
+d) Change in distance measure
+c
+
+
+9. Topological properties don't depend on the distance measures.
+a) True
+b) False
+a
+
+
+10. What is the Euler number of the image shown below?
+a) 0
+b) 1
+c) 2
+d) -1
+d
+
+
+11. What is the Euler number of a region with polygonal network containing V,Q and F as the number of vertices, edges and faces respectively?
+a) V+Q+F
+b) V-Q+F
+c) V+Q-F
+d) V-Q-F
+b
+
+
+12. What is the Euler number of the region shown in the figure below?
+a) 1
+b) -2
+c) -1
+d) 2
+b
+
+
+13. The texture of the region provides measure of which of the following properties?
+a) Smoothness alone
+b) Coarseness alone
+c) Regularity alone
+d) Smoothness, coarseness and regularity
+d
+
+
+14. Structural techniques deal with the arrangement of image primitives.
+a) True
+b) False
+a
+
+
+15. Which of the following techniques is based on the Fourier transform?
+a) Structural
+b) Spectral
+c) Statistical
+d) Topological
+b
+
+
+1. The length of a boundary is one of the boundary descriptors.
+a) True
+b) False
+a
+
+
+2. Which of the following of a boundary is defined as the line perpendicular to the major axis?
+a) Equilateral axis
+b) Equidistant axis
+c) Minor axis
+d) Median axis
+c
+
+
+3. Which of the following is the useful descriptor of a boundary, whose value is given by the ratio of length of the major axis to the minor axis?
+a) Radius
+b) Perimeter
+c) Area
+d) Eccentricity
+d
+
+
+4. The term, Curvature is defined as:
+a) Rate of change of area
+b) Rate of change of slope
+c) Slope
+d) Rate of change of diameter
+b
+
+
+5. If the boundary is traversed in the clockwise direction, a vertex point 'p' is said to be a part of the convex segment if the rate of change of slope at 'p' is:
+a) Negative
+b) Zero
+c) Non negative
+d) Cannot be determined
+c
+
+
+6. A point 'p' is said to be corner point, if the change of slope is less than 100.
+a) True
+b) False
+b
+
+
+7. Based on the 4-directional code, the first difference of smallest magnitude is called as:
+a) Shape number
+b) Chain number
+c) Difference
+d) Difference number
+a
+
+
+8. The order of shape number for a closed boundary is:
+a) Odd
+b) Even
+c) 1
+d) Any positive value
+b
+
+
+9. What is the order of the shape number of a rectangular boundary with the dimensions of 3×3?
+a) 3
+b) 6
+c) 9
+d) 12
+d
+
+
+10. The chain code for the following shape is given as:
+a) 000030032232221211
+b) 003010203310321032
+c) 022332103210201330
+d) 012302301023100321
+a
+
+
+11. What is the shape number for the boundary given in the previous figure?
+a) 003231023101230123
+b) 012301220331023010
+c) 133021030012330120
+d) 000310330130031303
+d
+
+
+12. Statistical moments are used to describe the shape of boundary segments quantitatively.
+a) True
+b) False
+a
+
+
+13. Which of the following techniques of boundary descriptions have the physical interpretation of boundary shape?
+a) Fourier transform
+b) Statistical moments
+c) Laplace transform
+d) Curvature
+b
+
+
+14. Statistical moments is sensitive to rotation.
+a) True
+b) False
+b
+
+
+1. The principal factor to determine the spatial resolution of an image is _______
+a) Quantization
+b) Sampling
+c) Contrast
+d) Dynamic range
+b
+
+
+2. What causes the effect, imperceptible set of very fine ridge like structures in areas of smooth gray levels?
+a) Caused by the use of an insufficient number of gray levels in smooth areas of a digital image
+b) Caused by the use of huge number of gray levels in smooth areas of a digital image
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+3. What is the name of the effect caused by the use of an insufficient number of gray levels in smooth areas of a digital image?
+a) Dynamic range
+b) Ridging
+c) Graininess
+d) False contouring
+d
+
+
+4. Using rough rule of thumb, and assuming powers of 2 for convenience, what image size are about the smallest images that can be expected to be reasonably free of objectionable sampling checkerboards and false contouring?
+a) 512*512pixels and 16 gray levels
+b) 256*256pixels and 64 gray levels
+c) 64*64pixels and 16 gray levels
+d) 32*32pixels and 32 gray levels
+b
+
+
+5. What does a shift up and right in the curves of iso preference curve simply means? Verify in terms of N (number of pixels) and k (L=2k, L is the gray level) values.
+a) Smaller values for N and k, implies a better picture quality
+b) Larger values for N and k, implies low picture quality
+c) Larger values for N and k, implies better picture quality
+d) Smaller values for N and k, implies low picture quality
+c
+
+
+6. How does the curves behave to the detail in the image in isopreference curve?
+a) Curves tend to become more vertical as the detail in the image decreases
+b) Curves tend to become less vertical as the detail in the image increases
+c) Curves tend to become less vertical as the detail in the image decreases
+d) Curves tend to become more vertical as the detail in the image increases
+d
+
+
+7. For an image with a large amount of detail, if the value of N (number of pixels) is fixed then what is the gray level dependency in the perceived quality of this type of image?
+a) Totally independent of the number of gray levels used
+b) Nearly independent of the number of gray levels used
+c) Highly dependent of the number of gray levels used
+d) None of the mentioned
+b
+
+
+8. What is a band-limited function?
+a) A function of limited duration whose highest frequency is finite
+b) A function of limited duration whose highest frequency is infinite
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+9. For a band-limited function, which Theorem says that "if the function is sampled at a rate equal to or greater than twice its highest frequency, the original function can be recovered from its samples"?
+a) Band-limitation theorem
+b) Aliasing frequency theorem
+c) Shannon sampling theorem
+d) None of the mentioned
+c
+
+
+10. What is the name of the phenomenon that corrupts the sampled image, and how does it happen?
+a) Shannon sampling, if the band-limited functions are undersampled
+b) Shannon sampling, if the band-limited functions are oversampled
+c) Aliasing, if the band-limited functions are undersampled
+d) Aliasing, if the band-limited functions are oversampled
+c
+
+
+11. How aliasing does corrupts the sampled image?
+a) By introducing additional frequency components to the sampled function
+b) By removing some frequency components from the sampled function
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+12. How can one reduce the aliasing effect on an image?
+a) By reducing the high-frequency components of image by blurring the image
+b) By increasing the high-frequency components of image by blurring the image
+c) By reducing the high-frequency components of image by clarifying the image
+d) By increasing the high-frequency components of image by clarifying the image
+a
+
+
+1. In terms of Sampling and Quantization, Zooming and Shrinking may be viewed as ___________
+a) Oversampling for both
+b) Oversampling and Undersampling respectively
+c) Undersampling and Oversampling respectively
+d) Undersampling for both
+b
+
+
+2. The two steps: one is the creation of new pixel locations, and other is the assignment of gray levels to those new locations are involved in ____________
+a) Shrinking
+b) Zooming
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+3. While Zooming, In order to perform gray-level assignment for any point in the overlay, we assign its gray level to the new pixel in the grid its closest pixel in the original image. What's this method of gray-level assignment called?
+a) Neighbor Duplication
+b) Duplication
+c) Nearest neighbor Interpolation
+d) None of the mentioned
+c
+
+
+4. A special case of nearest neighbor Interpolation that just duplicates the pixels the number of times to achieve the desired size, is known as ___________
+a) Bilinear Interpolation
+b) Contouring
+c) Ridging
+d) Pixel Replication
+d
+
+
+5. Nearest neighbor Interpolation has an undesirable feature, that is _________
+a) Aliasing effect
+b) False contouring effect
+c) Ridging effect
+d) Checkerboard effect
+d
+
+
+6. What does the bilinear Interpolation do for gray-level assignment?
+a) Assign gray level to the new pixel using its right neighbor
+b) Assign gray level to the new pixel using its left neighbor
+c) Assign gray level to the new pixel using its four nearest neighbors
+d) Assign gray level to the new pixel using its eight nearest neighbors
+c
+
+
+7. Row-column deletion method of Image Shrinking is an equivalent process to which method of Zooming?
+a) Bilinear Interpolation
+b) Contouring
+c) Pixel Replication
+d) There is no such equivalent process
+c
+
+
+8. Image Shrinking has an undesirable feature, that is ____________
+a) Aliasing effect
+b) False contouring effect
+c) Ridging effect
+d) Checkerboard effect
+a
+
+
+9. State for the validation of the statement:
+"In general-purpose for a digital image of zooming and shrinking, where Bilinear Interpolation generally is the method of choice over nearest neighbor Interpolation".
+a) True
+b) False
+a
+
+
+1. A pixel p at coordinates (x, y) has neighbors whose coordinates are given by:
+(x+1, y), (x-1, y), (x, y+1), (x, y-1)
+This set of pixels is called ____________
+a) 4-neighbors of p
+b) Diagonal neighbors
+c) 8-neighbors
+d) None of the mentioned
+a
+
+
+2. A pixel p at coordinates (x, y) has neighbors whose coordinates are given by:
+(x+1, y+1), (x+1, y-1), (x-1, y+1), (x-1, y-1)
+This set of pixels is called ____________
+a) 4-neighbors of p
+b) Diagonal neighbors
+c) 8-neighbors
+d) None of the mentioned
+b
+
+
+3. What is the set of pixels of 8-neighbors of pixel p at coordinates (x, y)?
+a) (x+1, y), (x-1, y), (x, y+1), (x, y-1), (x+2, y), (x-2, y), (x, y+2), (x, y-2)
+b) (x+1, y), (x-1, y), (x, y+1), (x, y-1), (x+1, y+1), (x+1, y-1), (x-1, y+1), (x-1, y-1)
+c) (x+1, y+1), (x+1, y-1), (x-1, y+1), (x-1, y-1), (x+2, y+2), (x+2, y-2), (x-2, y+2), (x-2, y-2)
+d) (x+2, y), (x-2, y), (x, y+2), (x, y-2), (x+2, y+2), (x+2, y-2), (x-2, y+2), (x-2, y-2)
+b
+
+
+4. Two pixels p and q having gray values from V, the set of gray-level values used to define adjacency, are m-adjacent if:
+a) q is in N4(p)
+b) q is in ND(p) and the set N4(p) ∩ N4(q) has no pixels whose values are from V
+c) Any of the mentioned
+d) None of the mentioned
+c
+
+
+5. Let S, a subset of pixels in an image, is said to be a connected set if:
+a) If for any pixel p in S, the set of pixels that are connected to it in Sis only one
+b) If it only has one connected component
+c) If S is a region
+d) All of the mentioned
+d
+
+
+6. Let R be a subset of pixels in an image. How can we define the contour of R?
+a) If R is a region, and the set of pixels in R have one or more neighbors that are not in R
+b) If R is an entire image, then the set of pixels in the first and last rows and columns of R
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+7. For pixels p(x, y), q(s, t), and z(v, w), D is a distance function or metric if:
+a) D(p, q) ≥ 0
+b) D(p, q) = D(q, p)
+c) D(p, z) ≤ D(p, q) + D(q, z)
+d) All of the mentioned
+d
+
+
+8. For pixels p(x, y), q(s, t), the Euclidean distance between p and q is defined as:
+a) D(p, q) = [(x - s)^2+ (y - t)^2]^1/2
+b) D(p, q) = |x - s| + |y - t|
+c) D(p, q) = max (|x - s| + |y - t|)
+d) None of the mentioned
+a
+
+
+9. For pixels p(x, y), q(s, t), the city-block distance between p and q is defined as:
+a) D(p, q) = [(x - s)^2+ (y - t)^2]^1/2
+b) D(p, q) = |x - s| + |y - t|
+c) D(p, q) = max (|x - s| + |y - t|)
+d) None of the mentioned
+b
+
+
+10. For pixels p(x, y), q(s, t), the chessboard distance between p and q is defined as:
+a) D(p, q) = [(x - s)^2+ (y - t)^2]^1/2
+b) D(p, q) = |x - s| + |y - t|
+c) D(p, q) = max (|x - s| + |y - t|)
+d) None of the mentioned
+c
+
+
+11. The domain that refers to image plane itself and the domain that refers to Fourier transform of an image is/are :
+a) Spatial domain in both
+b) Frequency domain in both
+c) Spatial domain and Frequency domain respectively
+d) Frequency domain and Spatial domain respectively
+c
+
+
+12. What is the technique for a gray-level transformation function called, if the transformation would be to produce an image of higher contrast than the original by darkening the levels below some gray-level m and brightening the levels above m in the original image.
+a) Contouring
+b) Contrast stretching
+c) Mask processing
+d) Point processing
+b
+
+
+13. For Image Enhancement a general-approach is to use a function of values of f (input image) in a predefined neighborhood of (x, y) to determine the value of g (output image) at (x, y). The techniques that uses such approaches are called ________
+a) Contouring
+b) Contrast stretching
+c) Mask processing
+d) None of the mentioned
+c
+
+
+1. Using gray-level transformation, the basic function linearity deals with which of the following transformation?
+a) log and inverse-log transformations
+b) negative and identity transformations
+c) nth and nth root transformations
+d) All of the mentioned
+b
+
+
+2. Using gray-level transformation, the basic function Logarithmic deals with which of the following transformation?
+a) Log and inverse-log transformations
+b) Negative and identity transformations
+c) nth and nth root transformations
+d) All of the mentioned
+a
+
+
+3. Using gray-level transformation, the basic function power-law deals with which of the following transformation?
+a) log and inverse-log transformations
+b) negative and identity transformations
+c) nth and nth root transformations
+d) all of the mentioned
+b
+
+
+4. If r be the gray-level of image before processing and s after processing then which expression defines the negative transformation, for the gray-level in the range [0, L-1]?
+a) s = L - 1 - r
+b) s = crᵞ, c and ᵞ are positive constants
+c) s = c log (1 + r), c is a constant and r ≥ 0
+d) none of the mentioned
+a
+
+
+5. If r be the gray-level of image before processing and s after processing then which expression helps to obtain the negative of an image for the gray-level in the range [0, L-1]?
+a) s = L - 1 - r
+b) s = crᵞ, c and ᵞ are positive constants
+c) s = c log (1 + r), c is a constant and r ≥ 0
+d) none of the mentioned
+c
+
+
+6. If r be the gray-level of image before processing and s after processing then which expression defines the power-law transformation, for the gray-level in the range [0, L-1]?
+a) s = L - 1 - r
+b) s = crᵞ, c and ᵞ are positive constants
+c) s = c log (1 + r), c is a constant and r ≥ 0
+d) none of the mentioned
+b
+
+
+7. Which of the following transformations is particularly well suited for enhancing an image with white and gray detail embedded in dark regions of the image, especially when there is more black area in the image.
+a) Log transformations
+b) Power-law transformations
+c) Negative transformations
+d) None of the mentioned
+c
+
+
+8. Which of the following transformations expands the value of dark pixels while the higher-level values are being compressed?
+a) Log transformations
+b) Inverse-log transformations
+c) Negative transformations
+d) None of the mentioned
+a
+
+
+9. Although power-law transformations are considered more versatile than log transformations for compressing of gray-levels in an image, then, how is log transformations advantageous over power-law transformations?
+a) The log transformation compresses the dynamic range of images
+b) The log transformations reverses the intensity levels in the images
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+10. A typical Fourier Spectrum with spectrum value ranging from 0 to 106, which of the following transformation is better to apply.
+a) Log transformations
+b) Power-law transformations
+c) Negative transformations
+d) None of the mentioned
+a
+
+
+11. The power-law transformation is given as: s = crᵞ, c and ᵞ are positive constants, and r is the gray-level of image before processing and s after processing. Then, for what value of c and ᵞ does power-law transformation becomes identity transformation?
+a) c = 1 and ᵞ < 1
+b) c = 1 and ᵞ > 1
+c) c = -1 and ᵞ = 0
+d) c = ᵞ = 1
+d
+
+
+12. What is gamma correction?
+a) A process to remove power-law transformation response phenomena
+b) A process to remove log transformation response phenomena
+c) A process to correct log transformation response phenomena
+d) A process to correct power-law transformation response phenomena
+d
+
+
+13. Which of the following transformation is used cathode ray tube (CRT) devices?
+a) Log transformations
+b) Power-law transformations
+c) Negative transformations
+d) None of the mentioned
+b
+
+
+14. Log transformation is generally used in which of the following device(s)?
+a) Cathode ray tube
+b) Scanners and printers
+c) All of the mentioned
+d) None of the mentioned
+d
+
+
+15. The power-law transformation is given as: s = crᵞ, c and ᵞ are positive constants, and r is the gray-level of image before processing and s after processing. What happens if we increase the gamma value from 0.3 to 0.7?
+a) The contrast increases and the detail increases
+b) The contrast decreases and the detail decreases
+c) The contrast increases and the detail decreases
+d) The contrast decreases and the detail increases
+c
+
+
+1. If h(r_k) = n_k, r_k the kth gray level and n_k total pixels with gray level r_k, is a histogram in gray level range [0, L - 1]. Then how can we normalize a histogram?
+a) If each value of histogram is added by total number of pixels in image, say n, p(r_k)=n_k+n
+b) If each value of histogram is subtracted by total number of pixels in image, say n, p(r_k)=n_k-n
+c) If each value of histogram is multiplied by total number of pixels in image, say n, p(r_k)=n_k* n
+d) If each value of histogram is divided by total number of pixels in image, say n, p(r_k)=n_k/ n
+d
+
+
+2. What is the sum of all components of a normalized histogram?
+a) 1
+b) -1
+c) 0
+d) None of the mentioned
+a
+
+
+3. A low contrast image will have what kind of histogram when, the histogram, h(r_k) = n_k, r_k the kth gray level and n_k total pixels with gray level r_k, is plotted n_k versus r_k?
+a) The histogram that are concentrated on the dark side of gray scale
+b) The histogram whose component are biased toward high side of gray scale
+c) The histogram that is narrow and centered toward the middle of gray scale
+d) The histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform
+c
+
+
+4. A bright image will have what kind of histogram, when the histogram, h(rk) = nk, rk the kth gray level and nk total pixels with gray level rk, is plotted nk versus rk ?
+a) The histogram that are concentrated on the dark side of gray scale
+b) The histogram whose component are biased toward high side of gray scale
+c) The histogram that is narrow and centered toward the middle of gray scale
+d) The histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform
+b
+
+
+5. A high contrast image and a dark
+image will have what kind of histogram respectively, when the histogram, h(rk) = nk, rk the kth gray level and nk total pixels with gray level rk, is plotted nk versus rk? The histogram that are concentrated on the dark side of gray scale. The histogram whose component are biased toward high side of gray scale. The histogram that is narrow and centered toward the middle of gray scale. The histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform.
+a) I) And II) respectively
+b) III) And II) respectively
+c) II) And IV) respectively
+d) IV) And I) respectively
+d
+
+
+6. The transformation s = T(r) producing a gray level s for each pixel value r of input image. Then, if the T(r) is single valued in interval 0 ≤ r ≤ 1, what does it signifies?
+a) It guarantees the existence of inverse transformation
+b) It is needed to restrict producing of some inverted gray levels in output
+c) It guarantees that the output gray level and the input gray level will be in same range
+d) All of the mentioned
+a
+
+
+7. The transformation s = T(r) producing a gray level s for each pixel value r of input image. Then, if the T(r) is monotonically increasing in interval 0 ≤ r ≤ 1, what does it signifies?
+a) It guarantees the existence of inverse transformation
+b) It is needed to restrict producing of some inverted gray levels in output
+c) It guarantees that the output gray level and the input gray level will be in same range
+d) All of the mentioned
+b
+
+
+8. The transformation s = T(r) producing a gray level s for each pixel value r of input image. Then, if the T(r) is satisfying 0 ≤ T(r) ≤ 1 in interval 0 ≤ r ≤ 1, what does it signifies?
+a) It guarantees the existence of inverse transformation
+b) It is needed to restrict producing of some inverted gray levels in output
+c) It guarantees that the output gray level and the input gray level will be in same range
+d) All of the mentioned
+c
+
+
+9. What is the full form for PDF, a fundamental descriptor of random variables i.e. gray values in an image?
+a) Pixel distribution function
+b) Portable document format
+c) Pel deriving function
+d) Probability density function
+d
+
+
+10. What is the full form of CDF?
+a) Cumulative density function
+b) Contour derived function
+c) Cumulative distribution function
+d) None of the mentioned
+c
+
+
+11. For the transformation T(r) = [∫0-r pr(w) dw], r is gray value of input image, pr(r) is PDF of random variable r and w is a dummy variable. If, the PDF are always positive and that the function under integral gives the area under the function, the transformation is said to be __________
+a) Single valued
+b) Monotonically increasing
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+12. The transformation T (rk) = ∑k(j=0) nj /n, k = 0, 1, 2, ..., L-1, where L is max gray value possible and r-k is the kth gray level, is called _______
+a) Histogram linearization
+b) Histogram equalization
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+13. If the histogram of same images, with different contrast, are different, then what is the relation between the histogram equalized images?
+a) They look visually very different from one another
+b) They look visually very similar to one another
+c) They look visually different from one another just like the input images
+d) None of the mentioned
+b
+
+
+1. The technique of Enhancement that has a specified Histogram processed image as result, is called?
+a) Histogram Linearization
+b) Histogram Equalization
+c) Histogram Matching
+d) None of the mentioned
+c
+
+
+2. In Histogram Matching r and z are gray level of input and output image and p stands for PDF, then, what does p
+z
+(z) stands for?
+a) Specific probability density function
+b) Specified pixel distribution function
+c) Specific pixel density function
+d) Specified probability density function
+d
+
+
+3. Inverse transformation plays an important role in which of the following Histogram processing Techniques?
+a) Histogram Linearization
+b) Histogram Equalization
+c) Histogram Matching
+d) None of the mentioned
+c
+
+
+4. In Histogram Matching or Specification, z = G^-1
+[T(r)], r and z are gray level of input and output image and T & G are transformations, to confirm the single value and monotonous of G^-1
+what of the following is/are required?
+a) G must be strictly monotonic
+b) G must be strictly decreasing
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+5. Which of the following histogram processing techniques is global?
+a) Histogram Linearization
+b) Histogram Specification
+c) Histogram Matching
+d) All of the mentioned
+d
+
+
+6. What happens to the output image when global Histogram equalization method is applied on smooth and noisy area of an image?
+a) The contrast increases little bit with considerable enhancement of noise
+b) The result would have a fine noise texture
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+7. Let us suppose an image containing a quite small square under a large dark square with both having very close gray level values. If an image contains some of this such that the small squares can't be visualized and some noise blurred enough to reduce its noise content as shown in fig. below, Which of the following method would be preferred for obtaining the small square clear enough?
+Figure: original image.
+a) Global histogram equalization
+b) Local histogram equalization
+c) All of the mentioned
+d) None of the mentioned
+b
+
+
+8. In terms of enhancement, what does mean and variance refers to?
+a) Average contrast and average gray level respectively
+b) Average gray level and average contrast respectively
+c) Average gray level in both
+d) Average contrast in both
+b
+
+
+9. For a local enhancement using mean and variance, there is one condition: ms(x, y)≤ k0MG, where, MG is global mean, k0 a constant and ms(x, y) a measure of gray value as light or dark at point (x, y). Then, which fact is true for k0 ?
+a) It is a negative constant with values less than -1.0
+b) It is a positive constant with values less than 1.0
+c) It is an integer constant with values between -1.0 and 1.0
+d) None of the mentioned
+b
+
+
+10. For a local enhancement using mean and variance, there is one condition: σs(x, y) ≤ k2DG, where, MDG is global standard deviation, k2 a positive constant and σs(x, y) a measure of contrast at point (x, y). Then, which fact is true for k2 if its values is less than 1.0?
+a) Enhancement is being done on light areas
+b) Enhancement is being done on dark areas
+c) Enhancement is being done independent of value of k
+0
+d) None of the mentioned
+b
+
+
+11. For a local enhancement using mean and variance, there is one condition: σs(x, y)≤ k2DG, where, MDG is global standard deviation, k2 a positive constant and σs(x, y) a measure of contrast at point (x, y). Then, which fact is true for k2 if its values is greater than 1.0?
+a) Enhancement is being done on light areas
+b) Enhancement is being done on dark areas
+c) Enhancement is being done independent of value of k
+0
+d) None of the mentioned
+a
+
+
+12. What is standard deviation value for constant area?
+a) 0
+b) 1
+c) -1
+d) None of the mentioned
+a
+
+
+13. For a local enhancement using mean and variance, what happens if the lowest value of contrast is not restricted as per the willingness of acceptance of value?
+a) There wouldn't be any enhancement
+b) Enhancement will occur for areas with standard deviation value > 1
+c) Enhancement of the constant areas will also be the part of procedure
+d) Enhancement will occur for areas with standard deviation value > 0 and < 1
+c
+
+
+1. Logic operations between two or more images are performed on pixel-by-pixel basis, except for one that is performed on a single image. Which one is that?
+a) AND
+b) OR
+c) NOT
+d) None of the mentioned
+c
+
+
+2. Which of the following logical operator(s) is/are functionally complete?
+a) AND
+b) OR
+c) NOT
+d) All of the mentioned
+d
+
+
+4. What is the equivalent for a black, 8-bit pixel to be processed under logic operation on gray scale image?
+a) A string: 00000000
+b) A string: 11111111
+c) A string: 10000000
+d) A string: 01111111
+a
+
+
+3. While implementing logic operation on gray-scale images, the processing of pixel values is done as __________
+a) String of integer numbers
+b) String of floating numbers
+c) String of binary numbers
+d) None of the mentioned
+c
+
+
+5. Which of the following operation(s) is/are equivalent to negative transformation?
+a) AND
+b) OR
+c) NOT
+d) All of the mentioned
+c
+
+
+6. Which of the following operations are used for masking?
+a) AND, OR
+b) AND, NOT
+c) NOT, OR
+d) All of the mentioned
+c
+
+
+7. Two images having one pixel gray value 01010100 and 00000101 at the same location, are operated against AND operator. What would be the resultant pixel gray value at that location in the enhanced image?
+a) 10100100
+b) 11111011
+c) 00000100
+d) 01010101
+c
+
+
+8. Which of the following arithmetic operator is primarily used as a masking operator in enhancement?
+a) Addition
+b) Subtraction
+c) Multiplication
+d) Division
+c
+
+
+1. Which of the following is/are more commercially successful image enhancement method in mask mode radiography, an area under medical imaging?
+a) Addition
+b) Subtraction
+c) Multiplication
+d) Division
+b
+
+
+2. The subtraction operation results in areas that appear as dark shades of gray. Why?
+a) Because the difference in such areas is little, that yields low value
+b) Because the difference in such areas is high, that yields low value
+c) Because the difference in such areas is high, that yields high value
+d) None of the mentioned
+a
+
+
+3. If the images are displayed using 8-bits, then, what is the range of the value of an image if the image is a result of subtraction operation?
+a) 0 to 255
+b) 0 to 511
+c) -255 to 0
+d) None of the mentioned
+d
+
+
+4. The subtracted image needs to be scaled, if 8-bit channel is used to display the subtracted images. So, the method of adding 255 to each pixel and then dividing by 2, has certain limits. What is/are those limits?
+a) Very complex method
+b) Very difficult to implement
+c) The truncation inherent in division by 2 causes loss in accuracy
+d) All of the mentioned
+c
+
+
+5. Which of the following is/are the fundamental factors that need tight control for difference based inspection work?
+a) Proper registration
+b) Controlled illumination
+c) Noise levels should be low enough so that the variation due to noise won't affect the difference value much
+d) All of the mentioned
+d
+
+
+6. When can two random variables be uncorrelated?
+a) Their covariance is 0
+b) Their covariance is 1
+c) Their covariance is -1
+d) None of the mentioned
+a
+
+
+7. In Image Averaging enhancement method assumptions are made for a noisy image g(x, y). What is/are those?
+a) The noise is correlated at every pair of coordinate (x, y)
+b) The noise has average value 1 at every pair of coordinate (x, y)
+c) All of the mentioned
+d) None of the mentioned
+d
+
+
+8. The standard deviation 'σ' at any point in image averaging: σ
+ḡ(x, y)= 1/√K σɳ(x, y), where ḡ(x, y) is the average image formed by averaging K different noisy images and ɳ(x, y) is the noise added to an original image f(x, y). What is the relation between K and the variability of the pixel values at each location (x, y)?
+a) Increase in K, decreases the noise of pixel values
+b) Increase in K, increases the noise of pixel values
+c) Decrease in K, decreases the noise of pixel values
+d) Decrease in K, increases the noise of pixel values
+a
+
+
+1. A filter is applied to an image whose response is independent of the direction of discontinuities in the image. The filter is/are ________
+a) Isotropic filters
+b) Box filters
+c) Median filter
+d) All of the mentioned
+a
+
+
+2. In isotropic filtering, which of the following is/are the simplest isotropic derivative operator?
+a) Laplacian
+b) Gradient
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+3. The Laplacian is which of the following operator?
+a) Nonlinear operator
+b) Order-Statistic operator
+c) Linear operator
+d) None of the mentioned
+c
+
+
+4. A Laplacian for an image f(x, y) is defined as:
+is given by ________
+a) [f(x + 1, y) + f(x - 1, y) - 2f(x, y)] and [f(x, y + 1) + f(x, y - 1) - 2f(x, y)] respectively
+b) [f(x + 1, y + 1) + f(x, y - 1) - 2f(x, y)] and [f(x , y + 1) + f(x - 1, y) - 2f(x, y)] respectively
+c) [f(x, y + 1) + f(x, y - 1) - 2f(x, y)] and [f(x + 1, y) + f(x - 1, y) - 2f(x, y)] respectively
+d) None of the mentioned
+a
+
+
+5. The Laplacian ∇2f=[f(x + 1, y) + f(x - 1, y) + f(x, y + 1) + f(x, y - 1) - 4f(x, y)], gives an isotropic result for rotations in increment by what degree?
+a) 90o
+b) 0o
+c) 45o
+d) None of the mentioned
+a
+
+
+6. The Laplacian incorporated with diagonal directions, i.e. ∇2
+f=[f(x + 1, y) + f(x - 1, y) + f(x, y + 1) + f(x, y - 1) - 8f(x, y)], gives an isotropic result for rotations in increment by what degree?
+a) 90o
+b) 0o
+c) 45o
+d) None of the mentioned
+a
+
+
+7. Applying Laplacian has which of the following result(s)?
+a) Produces image having greyish edge lines
+b) Produces image having featureless background
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+8. Applying Laplacian produces image having featureless background which is recovered maintaining the sharpness of Laplacian operation by either adding or subtracting it from the original image depending upon the Laplacian definition used. Which of the following is true based on above statement?
+a) If definition used has a negative center coefficient, then subtraction is done
+b) If definition used has a positive center coefficient, then subtraction is done
+c) If definition used has a negative center coefficient, then addition is done
+d) None of the mentioned
+a
+
+
+9. A mask of size 3*3 is formed using Laplacian including diagonal neighbors that has central coefficient as 9. Then, what would be the central coefficient of same mask if it is made without diagonal neighbors?
+a) 5
+b) -5
+c) 8
+d) -8
+a
+
+
+10. Which of the following mask(s) is/are used to sharpen images by subtracting a blurred version of original image from the original image itself?
+a) Unsharp mask
+b) High-boost filter
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+11. Which of the following gives an expression for high boost filtered image fhb, if f represents an image, f blurred version of f, fs unsharp mask filtered image and A ≥ 1?
+a) fhb= (A - 1) f(x, y) + f(x, y) - f x, y)
+b) fhb= A f(x, y) - f(x,y)
+c) fhb= (A - 1) f(x, y) + fs(x, y)
+d) All of the mentioned
+d
+
+
+12. If we use a Laplacian to obtain sharp image for unsharp mask filtered image fs(x, y) of f(x, y) as input image, and if the center coefficient of the Laplacian mask is negative then, which of the following expression gives the high boost filtered image f
+hb, if ∇2f represent Laplacian?
+a) fhb= A f(x, y) - ∇2f(x,y)
+b) fhb= A f(x, y) + ∇2f(x,y)
+c) fhb= ∇2f(x,y)
+d) None of the mentioned
+a
+
+
+13. If for an input image f(x, y) and the ∇2f represents Laplacian, then if, high boost filtered image is given by. For what value of A this high boost filtering becomes the standard Laplacian sharpening filter?
+a) 0
+b) 1
+c) -1
+d) ∞
+b
+
+
+1. "For very large value of A, a high boost filtered image is approximately equal to the original image". State whether the statement is true or false?
+a) True
+b) False
+a
+
+
+2. Subtracting Laplacian from an image is proportional to which of the following?
+a) Unsharp masking
+b) Box filter
+c) Median filter
+d) None of the mentioned
+a
+
+
+3. A First derivative in image processing is implemented using which of the following given operator(s)?
+a) Magnitude of Gradient vector
+b) The Laplacian
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+4. If for an image function f(x, y), the magnitude of gradient vector
+is given by: mag(∇f)=[G2x+G2y](1/2), then which of the following fact is correct?
+a) The component of Gradient vector are linear operator and also the magnitude of the vector
+b) The component of Gradient vector are linear operator, but the magnitude are not
+c) The component of Gradient vector are nonlinear operator and also the magnitude of the vector
+d) The component of Gradient vector are nonlinear operator, but the magnitude are not
+b
+
+
+5. What is the sum of the coefficient of the mask defined using gradient?
+a) 1
+b) -1
+c) 0
+d) None of the mentioned
+c
+
+
+6. Gradient is used in which of the following area(s)?
+a) To aid humans in detection of defects
+b) As a preprocessing step for automated inspections
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+7. Gradient have some important features. Which of the following is/are some of them?
+a) Enhancing small discontinuities in an otherwise flat gray field
+b) Enhancing prominent edges
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+8. An image has significant edge details. Which of the following fact(s) is/are true for the gradient image and the Laplacian image of the same?
+a) The gradient image is brighter than the Laplacian image
+b) The gradient image is brighter than the Laplacian image
+c) Both the gradient image and the Laplacian image has equal values
+d) None of the mentioned
+a
+
+
+1. The expression [∂2f(x,y)/∂x2+∂2f(x,y)/∂y2] is considered as _________ where f(x, y) is an input image.
+a) Laplacian of f(x, y)
+b) Gradient of f(x, y)
+c) All of the mentioned
+d) None of the mentioned
+a
+
+
+2. If the Laplacian in frequency domain is:
+where is the Fourier transform operator and F(u, v) is Fourier transformed function of f(x, y), then what is -(u2+ v2) is considered as?
+a) Laplacian operation
+b) Filtering operation
+c) Shift operation
+d) None of the mentioned
+b
+
+
+3. The Laplacian in frequency domain is simply implemented by using filter __________
+a) H(u, v)= -(u2- v2)
+b) H(u, v)= -(1)
+c) H(u, v)= -(u2+ v2)
+d) none of the mentioned
+c
+
+
+4. Assuming that the origin of F(u, v), Fourier transformed function of f(x, y) an input image, has been correlated by performing the operation f(x, y)(-1)x+y prior to taking the transform of the image. If F and f are of same size, then what does the given operation is/are supposed to do?
+a) Resize the transform
+b) Rotate the transform
+c) Shifts the center transform
+d) All of the mentioned
+c
+
+
+5. Assuming that the origin of F(u, v), Fourier transformed function of f(x, y) an input image, has been correlated by performing the operation f(x, y)(-1)x+y prior to taking the transform of the image. If F and f are of same size M*N, where does the point (u, v) =(0,0) shifts?
+a) (M -1, N -1)
+b) (M/2, N/2)
+c) (M+1, N+1)
+d) (0, 0)
+b
+
+
+6. Assuming that the origin of F(u, v), Fourier transformed function of f(x, y) an input image, has been correlated by performing the operation f(x, y)(-1)x+y prior to taking the transform of the image. If F and f are of same size M*N, then which of the following is an expression for H(u, v), the filter used for implementing Laplacian in frequency domain?
+a) H(u, v)= -(u2+ v2)
+b) H(u, v)= -(u2- v2)
+c) H(u, v)= -[(u - M/2)^2+ (v - N/2)^2].
+d) H(u, v)= -[(u - M/2)^2- (v - N/2)^2].
+c
+
+
+7. Computing the Fourier transform of the Laplacian result in spatial domain is equivalent to multiplying the F(u, v), Fourier transformed function of f(x, y) an input image, and H(u, v), the filter used for implementing Laplacian in frequency domain. This dual relationship is expressed as _________
+a) Fourier transform pair notation
+b) Laplacian
+c) Gradient
+d) None of the mentioned
+a
+
+
+8. Computing the Fourier transform of the Laplacian result in spatial domain is equivalent to multiplying the F(u, v), Fourier transformed function of f(x, y) an input image of size M*N, and H(u, v), the filter used for implementing Laplacian in frequency domain. This dual relationship is expressed as Fourier transform pair notation given by_____________
+a) ∇2f(x,y)↔[(u -M/2)^2+ (v -N/2)^2]F(u,v)
+b) ∇2f(x,y)↔-[(u+M/2)^2- (v+N/2)^2]F(u,v)
+c) ∇2f(x,y)↔-[(u -M/2)^2+ (v -N/2)^2]F(u,v)
+d) ∇2f(x,y)↔[(u+M/2)^2- (v+N/2)^2]F(u,v)
+c
+
+
+9. An enhanced image can be obtained as: g(x,y)=f(x,y)-∇2f(x,y), where Laplacian is being subtracted from f(x, y) the input image. What does this conclude?
+a) That the center spike would be negative
+b) That the immediate neighbors of center spike would be positive.
+c) All of the mentioned
+d) None of the mentioned
+c
+
+
+10. An enhanced image can be obtained as: g(x,y)=f(x,y)-∇2f(x,y), where Laplacian is being subtracted from f(x, y) the input image of size M*Non which an operation f(x, y)(-1)x+yis applied. Unlike enhancing in spatial domain with one single mask, it is possible to perform the same in frequency domain using one filter. Which of the following is/are the required filter(s)?
+a) H(u, v)= -[1 + u^2+ v^2].
+b) H(u, v)= -[(u - M/2)^2+ (v- N/2)^2].
+c) H(u, v)= [1 + (u - M/2)^2+ (v - N/2)^2].
+d) All of the mentioned
+c
+
+
+11. Why is scaling of Laplacian filtered images necessary?
+a) Because it contain high positive values
+b) Because it contain high negative value
+c) Because it contain both positive and negative values
+d) None of the mentioned
+c
+
+
+12. Which of the following fact is true for the masks that includes diagonal neighbors than the masks that doesn't?
+a) Mask that excludes diagonal neighbors has more sharpness than the masks that doesn't
+b) Mask that includes diagonal neighbors has more sharpness than the masks that doesn't
+c) Both masks have same sharpness result
+d) None of the mentioned
